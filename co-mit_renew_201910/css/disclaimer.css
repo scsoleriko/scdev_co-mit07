@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../../co-mit_renew_201910/fonts/icomoon.eot?vjh3z5");
+  src: url("../../co-mit_renew_201910/fonts/icomoon.eot?vjh3z5#iefix") format("embedded-opentype"), url("../../co-mit_renew_201910/fonts/icomoon.ttf?vjh3z5") format("truetype"), url("../../co-mit_renew_201910/fonts/icomoon.woff?vjh3z5") format("woff"), url("../../co-mit_renew_201910/fonts/icomoon.svg?vjh3z5#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#new-disclaimer {
+  letter-spacing: 1px;
+  font-size: 1.375rem;
+  line-height: 1.8;
+  overflow-x: hidden;
+  color: #3E3A39;
+  font-weight: 300;
+  display: block;
+}
+
+@media screen and (min-width: 769px) {
+  #new-disclaimer .l-body {
+    min-width: 100%;
+  }
+}
+
+#new-disclaimer .common-content {
+  padding: 25px 0 25px;
+}
+
+@media screen and (min-width: 769px) {
+  #new-disclaimer .common-content {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #new-disclaimer .common-content {
+    margin-bottom: 0;
+  }
+}
+
+#new-disclaimer .section-title-area {
+  margin-bottom: 0;
+}
+
+#new-disclaimer .section-title-area .section-title {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#new-disclaimer .section-title-area .section-title .section-title-en {
+  font-size: 1.375rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #727171;
+  line-height: 1.8;
+}
+
+#new-disclaimer .section-title-area .section-title i {
+  display: block;
+  font-size: 3.875rem;
+  color: #00B2B0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#new-disclaimer .section-title-area .section-title i::before {
+  content: "\e91f";
+}
+
+@media screen and (max-width: 768px) {
+  #new-disclaimer .section-title-area .section-title i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+}
+
+#new-disclaimer .section-title-area .section-title .section-title-ja {
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: 400;
+  position: relative;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+  #new-disclaimer .section-title-area .section-title .section-title-ja {
+    font-size: 1.875rem;
+  }
+}
+
+#new-disclaimer .bg-gray {
+  background: #F0F0F0;
+}
+
+#new-disclaimer .inner {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 769px) {
+  #new-disclaimer .inner {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #new-disclaimer .inner {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #new-disclaimer .inner {
+    width: auto;
+    padding: 0 15px;
+  }
+}
+
+#new-disclaimer .disclaimer-box {
+  margin-bottom: 70px;
+}
+
+#new-disclaimer .disclaimer-box .desclaimer-title {
+  font-size: 2rem;
+  border-bottom: 2px solid #3E3A39;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+#new-disclaimer .disclaimer-box p {
+  margin-bottom: 20px;
+}
+
+#new-disclaimer .disclaimer-box ul {
+  margin-bottom: 20px;
+}
+
+#new-disclaimer .disclaimer-box ul li {
+  list-style: disc;
+  margin-left: 20px;
+}

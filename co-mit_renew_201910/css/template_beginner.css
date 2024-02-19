@@ -1,0 +1,938 @@
+@charset "UTF-8";
+#beginner{
+  line-height: 1.8;
+  font-size: 1.5rem;
+}
+#beginner .bg-grey {
+  background-color: #F7F7F7;
+}
+#beginner strong {
+  color: #00b2b0;
+}
+#beginner section{
+  text-align: center;
+}
+#beginner #first{
+  margin-bottom:60px;
+}
+#beginner #first{
+  background-image:url('/co-mit_renew_201910/img/beginner/fv_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 30px 0 40px;
+}
+#beginner #first .flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+#beginner #first .flex .fv-leftbox{
+  width: 500px;
+}
+#beginner #first .flex .fv-rightbox{
+  flex:1;
+}
+#beginner #first .flex .fv-catch{
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  font-weight: 900;
+  line-height: 2.0;
+}
+#beginner #first .flex .fv-catch strong{
+  font-size:3.2rem;
+  margin-right: 5px;
+}
+#beginner #first .flex .fv-catch img{
+  width:190px;
+  margin-right: 5px;
+}
+#beginner #first .fv-caution{
+  text-align: left;
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 769px) {
+  #beginner #first .flex .fv-leftbox > img{
+    width: 90%;
+  }
+  #beginner #first .flex .fv-rightbox{
+    max-width: 34%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #beginner #first{
+    padding: 10px 0 20px;
+  }
+  #beginner #first .flex{
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  #beginner #first .flex .fv-catch{
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    line-height: 1.9;
+  }
+  #beginner #first .flex .fv-catch strong{
+    font-size: 2.4rem;
+  }
+  #beginner #first .flex .fv-catch img{
+    width: 120px;
+  }
+  #beginner #first .flex .fv-leftbox > img{
+    width: 85%;
+  }
+  #beginner #first .flex .fv-rightbox{
+    flex:auto;
+    width: 100%;
+    margin-top: -30px;
+  }
+  #beginner #first .flex .fv-rightbox img{
+    width: 60%;
+  }
+  #beginner #first .fv-caution{
+    font-size: 1.0rem;
+  }
+}
+#beginner .section-title-area{
+  padding: 25px 0;
+}
+#beginner .section-title-en {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.375rem;
+  margin-bottom: 15px;
+  color:#727171;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+#beginner .section-title i{
+  display: block;
+  color:#00B2B0;
+  text-align-last: center;
+}
+#beginner .section-title i::before{
+  content:"\e903";
+}
+@media screen and (max-width: 768px) {
+  #beginner .section-title i{
+    font-size: 2.938rem;
+    margin-bottom:15px;
+  }
+}
+
+#beginner .icon-logo {
+  margin-bottom: 20px;
+}
+
+#beginner .section-title-ja {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+@media screen and (max-width: 768px) {
+  #beginner .section-title-ja {
+    font-size: 1.875rem;
+  }
+}
+#beginner #sec-about{
+  text-align: center;
+  padding-bottom: 70px;
+}
+#beginner .first-about__title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 768px) {
+  #beginner .first-about__title {
+    font-size: 2.0rem;
+  }
+}
+#beginner .first-about__sub-title {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  #beginner .first-about__sub-title {
+    margin-bottom: 29px;
+  }
+}
+#beginner .heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  background: #F7F7F7;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+#beginner .heading::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(to right, #008FAF 0, #0196AF 25%, #03A9B0 63%, #07C8B1 100%);
+}
+@media screen and (min-width: 768px) {
+  #beginner .heading {
+    font-size: 2.4rem;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+  }
+  #beginner .heading::after {
+    width: 100px;
+    height: 3px;
+  }
+}
+
+#beginner #sec-merit .merit-colum3-block {
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 70px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #sec-merit .merit-colum3-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+#beginner #sec-merit .merit-colum3-block__item {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #beginner #sec-merit .merit-colum3-block__item {
+    width: calc((100% - 50px) / 3);
+  }
+}
+
+#beginner #sec-merit .merit-colum3-block__item {
+  border: 1px solid #f5f2f4;
+}
+@media screen and (max-width: 767px) {
+  #beginner #sec-merit .merit-colum3-block__item {
+    margin-bottom: 20px;
+  }
+
+}
+#beginner #sec-merit .merit-colum3-block__item .text {
+  font-weight: bold;
+}
+#beginner #sec-merit .text-box{
+  padding: 15px 0;
+  font-weight: bold;
+  background-color: #0090af;
+  color: #fff;
+}
+#beginner #sec-merit .is-big{
+  font-size: 1.8rem;
+}
+#beginner #sec-merit .merit-colum3-block__item img{
+  display: block;
+}
+#beginner #card{
+  text-align: left;
+    padding-bottom: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  #beginner #card .contents3-area {
+    background-image: url('/co-mit_renew_201910/img/beginner/photo_01.jpg');
+    background-position: right 0 top 0;
+    padding-top: rem(50);
+    background-repeat: no-repeat;
+    background-size: 49.919355%;
+  }
+}
+#beginner #card .content-text {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #card .content-text {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+#beginner #card .content-text p {
+  font-size: 1.8rem;
+  line-height: 1.875;
+  font-weight: bold;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #beginner #card .content-text p {
+    max-width: 52%;
+  }
+}
+#beginner #card .content-text .marker {
+  background:linear-gradient(transparent 40%, #f4ff00 40%);
+}
+#beginner #card .conten-card {
+  border: 1px solid #eae7e9;
+  background-color: #fff;
+  width: 100%;
+  max-width: 687px;
+  padding: 10px;
+
+}
+@media screen and (min-width: 768px) {
+  #beginner #card .conten-card {
+    padding: 31px 30px 48px 30px;
+  }
+}
+#beginner #card .content-card-logo {
+  margin-bottom: 15px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  #beginner #card .content-card-logo {
+    margin-bottom: 32px;
+    text-align: left;
+  }
+}
+#beginner #card .content-card__sub-title {
+  font-size: 1.4rem;
+  line-height: 1.875;
+}
+#beginner #card .content-card__sub-title span {
+  font-size: 1.8rem;
+  display: block;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  #beginner #card .content-card__sub-title span {
+    margin-bottom: 39px;
+  }
+}
+#beginner #card .content-card__text {
+  line-height: 1.875;
+}
+#beginner #card .content-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #card .content-image {
+    display: none;
+  }
+}
+#beginner #first3 .first-about__text {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 35px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first3 .first-about__text {
+    margin-bottom: 72px;
+  }
+}
+#beginner #first3{
+  text-align: center;
+  padding: 70px 0;
+}
+#beginner #first3 .first-about__title {
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first3 .first-about__title {
+    margin-bottom: 50px;
+  }
+}
+#beginner #first3 .heading {
+  background-color: #fff;
+}
+#beginner #first3 .first-step3 {
+  margin-bottom: 35px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first3 .first-step3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+}
+#beginner #first3 .step {
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 0;
+  border: 1px solid #f5f2f4;
+  border-bottom: 3px solid #00b2b0;
+  position: relative;
+  margin-bottom: 20px;
+}
+#beginner #first3 .step:last-child{
+  border-bottom: none;
+}
+#beginner #first3 .step:last-child::before, #beginner #first3 .step:last-child::after{
+  content: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  #beginner #first3 .step {
+    max-width: calc((100% - 46px) / 3);
+    padding: 55px 0;
+    border: 1px solid #f5f2f4;
+    border-right: 3px solid #00b2b0;
+    margin-bottom: 10px;
+  }
+  #beginner #first3 .step:last-child{
+    border-right: none;
+  }
+}
+
+#beginner #first3 .number {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: #00b2b0;
+  line-height: 1;
+}
+#beginner #first3 .step::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -44px;
+  transform: translate(-50%, 0);
+  border: 24px solid transparent;
+  border-top: 20px solid #00b2b0;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first3 .step::before {
+    left: initial;
+    bottom: initial;
+    border-top: initial;
+    border: 24px solid transparent;
+    border-left: 20px solid #00b2b0;
+    top: 50%;
+    right: -44px;
+    transform: translate(0,-50%);
+  }
+}
+#beginner #first3 .step::after {
+  content: "";
+  position: absolute;
+  background:#fff;
+  width:35px;
+  height: 35px;
+  transform: translate(-50%,0) rotate(-45deg) skew(5deg, 5deg);
+  left:50%;
+  bottom: -11px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first3 .step::after {
+    top: 50%;
+    left: inherit;
+    right: -11px;
+    transform: translate(0,-50%) rotate(-45deg) skew(-5deg, -5deg);
+    
+  }
+}
+#beginner #first3 .step-img {
+  margin: 0 auto 15px;
+  margin-bottom: 15px;
+}
+
+#beginner #first3 .step-text {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+#beginner #first3 .button-area {
+  margin: auto;
+  display: block;
+  font-size: 1.4rem;
+}
+#beginner #first3 .button-area p{
+  font-weight: bold;
+  margin-bottom:3px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first3 .button-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.5rem;
+  }
+}
+#beginner #first3 .button,#beginner #first5 .content-top .button{
+  position: relative;
+  padding-right: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  #beginner #first3 .button, #beginner #first5 .button{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+#first3 .button::before, #first5 .button-wrapper .button::before  {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 20px;
+  border-radius: 50%;
+  display: block;
+  transition: 0.3s;
+  width: 28px;
+  height: 28px;
+  transform: translateY(-50%);
+  background-color: #f5f2f4;
+  box-shadow: 3px 3px 6px -2px rgba(0, 0, 0, 0.2);
+}
+#beginner #first3 .button::after,#beginner #first5 .button-wrapper .button::after { 
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 30px;
+  border-top: 3px solid #00b2b0;
+  border-right: 3px solid #00b2b0;
+  transform: translateY(-50%) rotate(45deg);
+  display: block;
+  transition: 0.3s;
+  width: 8px;
+  height: 8px;
+}
+#beginner #first4{
+   padding: 70px 0;
+ }
+#beginner #first4 .inner{
+  display: flex;
+  gap:45px 30px;
+  flex-wrap: wrap;
+}
+#beginner #first4 .card-wrapper{
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first4 .card-wrapper{
+    width: calc((100% - 30px) / 2);  
+  }  
+}
+#beginner #first4 .card {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  margin-bottom: 20px;
+}
+#beginner #first4 .card img{
+  display: block;
+}
+#beginner #first4 .card__title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.2rem;
+  background-color: #0090af;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+}
+#beginner #first4 .card__title .card-wrapper:last-child .card__title{
+  font-size: 2.1rem;
+}
+#beginner #first4 .card__title .is-small{
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 767px) {
+  #beginner #first4 .card__title{
+    font-size: 1.6rem;
+    line-height: 1.3;
+    padding: 8px 0;
+  }
+  #beginner #first4 .card__title .card-wrapper:last-child .card__title{
+    font-size: 1.6rem;
+  }
+  #beginner #first4 .card__title .is-small{
+    font-size: 1.6rem;
+  }
+}
+#beginner #first4 .card__text{
+  text-align: left;
+  margin-bottom: 10px;
+}
+#beginner #first4 .card__link{
+  text-align: left;
+}
+#beginner #first4 .card__link a {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap:15px;
+  line-height: 1.3;
+}
+@media screen and (max-width: 767px) {
+  #beginner #first4 .card__link a {
+    margin-bottom: 10px;
+  }
+}
+#beginner #first4 .card__link a span{
+  border-bottom: 1px solid #3e3a39;
+}
+#beginner #first4 .card__link a:hover span{
+  border:none;
+  margin-bottom: 1px;
+}
+#beginner #first4 .card__link a::before {
+  content: "";
+  border-top: 3px solid #ff7800;
+  border-right: 3px solid #ff7800;
+  transform: rotate(45deg);
+  width: 8px;
+  height: 8px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first4 .card-wrapper .card__link-wrapper{
+    display: flex;
+    gap: 10px 45px;
+    flex-wrap: wrap;
+  }
+}
+#beginner #first5 {
+  padding: 70px 0;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  #beginner #first5 {
+    padding: 45px 0 70px  ;
+  }
+}
+#beginner #first5 .content-title {
+  margin-bottom: 20px;
+}
+#beginner #first5 .content-top {
+  padding-bottom: 35px;
+  border-bottom: 3px solid #fff;
+  box-shadow: 3px 3px 6px -2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  box-sizing: border-box;
+  line-height: 1;
+}
+#beginner #first5 .content-top::before {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  background: #F7F7F7;
+  transform: translateX(-50%) rotate(-45deg) skew(20deg, 20deg);
+  width: 35px;
+  height: 35px;
+  z-index: 3;
+}
+#beginner #first5 .content-top::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  z-index: 2;
+  background: #FFF;
+  transform: translateX(-50%) rotate(-45deg) skew(20deg, 20deg);
+  box-shadow: -3px 3px 6px -2px rgba(0, 0, 0, 0.2);
+  width: 30px;
+  height: 30px;
+}
+#beginner #first5 .content-top .found-box{
+  background: #fff;
+  padding: 60px 0 30px;
+  margin-bottom: 60px;
+}
+#beginner #first5 .content-top .found-box .found-catch{
+  font-size: 2.4rem;
+  line-height: 2.2;
+  margin-bottom: 20px;
+}
+#beginner #first5 .content-top .found-box .found-catch img{
+  width:190px;
+  margin-right: 5px;
+}
+#beginner #first5 .content-top .found-box .found-catch strong{
+  font-size: 3.2rem;
+  margin: 0 5px;
+}
+@media screen and (max-width: 767px) {
+  #beginner #first5 .content-top .found-box{
+    padding: 40px 0 10px;
+  }
+  #beginner #first5 .content-top .found-box .found-catch{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  #beginner #first5 .content-top .found-box .found-catch img{
+    width: 120px;
+  }
+  #beginner #first5 .content-top .found-box .found-catch strong{
+    font-size: 2.4rem;
+  }
+}
+#beginner #first5 .content-top .number {
+  font-size: 5rem;
+  color: #ff7800;
+  padding-left: 17px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first5 .content-top .number {
+    font-size: 10rem;
+  }
+}
+#beginner #first5 .content-top .word1 {
+  font-size: 2rem;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first5 .content-top .word1 {
+    font-size: 2.4rem;
+  }
+}
+#beginner #first5 .content-top .word2 {
+  font-size: 3.6rem;
+  color: #ff7800;
+}
+#beginner #first5 .content-top .word3 {
+  font-size: 2.6rem;
+  margin-left: 7px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first5 .content-top .word3 {
+    font-size: 3.6rem;
+  }
+}
+#beginner #first5 .content-top .word4 {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first5 .content-top .word4 {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #beginner #first5 .content-top .word4 {
+    display: block;
+  }
+}
+#beginner #first5 .star{
+  position: absolute;
+  left: -13px;
+  top: 5px;
+}
+@media screen and (max-width: 767px) {
+  #beginner #first5 .star{
+    width: 35px;
+    top:-5px;
+    left: -7px;
+  }
+}
+#beginner #first5 .content-bottom {
+  padding-top: 44px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first5 .content-lead {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  #beginner #first5 .content-lead {
+    line-height: 1.8;
+  }
+  #beginner #first5 .content-title {
+    line-height: 1.3;
+  }
+}
+
+#beginner #first5 .content-lead span {
+  font-size: 2.8rem;
+  color: #ff7800;
+}
+
+#beginner #first5 .button {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  #beginner #first5 .button {
+    width: 100%;
+  }
+}
+#beginner #first5 .content-bottom .content-search{
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+#beginner #first5 .content-top .content-search {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin:60px auto 0;
+  padding-top: 60px;
+  border-top:1px solid #eae7e9;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first5 .content-search {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #beginner #first5 .content-top .content-search {
+    margin: 20px auto 0;
+    padding-top:20px;
+  }
+}
+#beginner #first5 .content-area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  #beginner #first5 .content-area {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+#beginner #first5 .content-area a{
+  text-decoration: underline;
+}
+#beginner #first5 .content-area a:hover{
+  text-decoration: none;
+}
+#beginner #first6{
+  padding: 70px 0;
+ text-align: left;
+}
+#beginner #first6 .question__container{
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first6 .question__container{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+#beginner #first6 .question__container li {
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin:0;
+  padding: 15px 0;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first6 .question__container li {
+  }
+}
+#beginner #first6 .question__container li::before {
+  content: url('/co-mit_renew_201910/img/beginner/question.png');
+}
+#beginner #first6 .question__container li a{
+  display: block;
+  width: 100%;
+  height:100%;
+  text-decoration: underline;
+}
+
+
+#beginner #first7{
+  padding: 70px 0 30px;
+}
+
+#beginner #first7 .contact__card {
+  text-align: left;
+  padding: 25px 0 15px;
+  background: #fff;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
+}
+#beginner #first7 .contact__ca .card__wrapper{
+  display: table;
+  width: 90%;
+  margin:0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  #beginner #first7 .contact__card {
+    padding: 30px;
+  }
+}
+#beginner #first7 .contact__card .contact__img{
+  display: block;
+  width:100%;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first7 .contact__card .contact__img{
+    display: table-cell;
+    vertical-align:middle;
+    text-align: center;
+    width:30%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #beginner #first7 .contact__card .contact__img{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #beginner #first7 .contact__card .contact__img{
+    border-right: 1px solid #e7e7e7;
+  }
+}
+#beginner #first7 .contact__body{
+  display: table-cell;
+}
+#beginner #first7 .contact__text{
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+#beginner #first7 .contact__text p{
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+}
+#beginner #first7 .contact__body a{
+  font-weight: bold;
+}
+#beginner #first7 .contact__body a:hover{
+  text-decoration: underline;
+}
+#beginner #first8{
+  padding: 40px 0;
+}
+#beginner #first8 .contact__attention p {
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  #beginner #first8 .contact__attention p {
+    margin-bottom: 30px;
+  }
+}
+#beginner #first8 .contact__attention a {
+  font-weight: bold;
+}
+#beginner #first8 .contact__attention a:hover {
+  text-decoration: underline;
+}

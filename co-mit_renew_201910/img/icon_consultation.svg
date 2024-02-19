@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-chat-48px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="190907top" transform="translate(-700.000000, -3453.000000)">
+            <g id="Group-24" transform="translate(0.000000, 3409.000000)">
+                <g id="ic-chat-48px" transform="translate(696.000000, 40.000000)">
+                    <path d="M40,4 L8,4 C5.79,4 4.02,5.79 4.02,8 L4,44 L12,36 L40,36 C42.21,36 44,34.21 44,32 L44,8 C44,5.79 42.21,4 40,4 Z M12,18 L36,18 L36,22 L12,22 L12,18 Z M28,28 L12,28 L12,24 L28,24 L28,28 Z M36,16 L12,16 L12,12 L36,12 L36,16 Z" id="Shape" fill="#01B2B0" fill-rule="nonzero"></path>
+                    <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

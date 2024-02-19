@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>CO-MITワーケーションポータル｜CO-MIT(コミット)企業研修・宿泊研修施設</title>
+<meta name="viewport" content="width=device-width" />
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/workation-portal/css/swiper.css">
+<link rel="stylesheet" href="/workation-portal/css/lightbox.min.css">
+<link rel="stylesheet" href="/workation-portal/css/style.css">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://co-mit.jp/workation-portal/">
+<meta name="description" content="">
+
+<meta property="og:title" content="CO-MITワーケーションポータル｜CO-MIT(コミット)企業研修・宿泊研修施設">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://co-mit.jp/workation-portal/">
+</head>
+<body>
+<div class="l-body">
+<header class="l-header">
+
+	<h1 class="header-logo">
+		<a href="/workation-portal/">
+			<img src="../img/logo_color.png" alt="CO-MITワーケーションポータル">
+		</a>
+	</h1>
+
+	<nav class="navi" aria-label="サイトメニュー">
+		<div class="navi__wrapper">
+			<ul class="navi__items">
+				<li class="navi__item"><a href="/workation-portal/#search">エリアから探す</a></li>
+				<li class="navi__item"><a href="/workation-portal/#recommend">研修プログラム一覧</a></li>
+				<li class="navi__item"><a href="/workation-portal/#post">ワーケーション関連記事</a></li>
+			</ul>
+		</div>
+	</nav>
+	<button type="button" class="menu-btn" aria-label="サイトメニューを開く">
+		<span class="menu-btn__icon">
+			<span></span>
+			<span></span>
+			<span></span>
+		</span>
+	</button>
+</header>
+<main class="l-main">
+
+	<div class="breadcrumb-wrap">
+		<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item">
+				<a itemprop="item" href="/offsite/">
+					<span itemprop="name">トップ</span>
+				</a>
+				<meta itemprop="position" content="1" />
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb__item">
+				<span itemprop="name">環境SDGsを考える砂浜ビーチコーミング体験研修（千葉県南房総市）</span>
+				<meta itemprop="position" content="2" />
+			</li>
+		</ol>
+	</div>
+
+	<div class="single-head">
+		<div class="single-head__image">
+			<img src="../img/recommend/bg_single-head.jpg" alt="">
+		</div>
+		<div class="single-head__main">
+			<div class="l-wrapper single-head__wrapper">
+        <div class="single-head__sub-heading"><span>環境SDGsを考える砂浜ビーチコーミング体験研修</span></div>
+				<h1 class="single-head__heading">砂浜ビーチコーミング体験研修</h1>
+      </div>
+    </div>
+    <div class="single-head__area">
+			<div class="l-wrapper single-head__wrapper">
+				<p class="single-head__location">千葉県 ／ 南房総市</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="single-intro">
+		<div class="l-wrapper">
+      <div class="single-intro__wrapper">
+        <div class="single-intro__slider swiper-conainer">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../img/recommend/temp_slide_01.jpg" class="slide_img01" alt=""></div>
+            <div class="swiper-slide"><img src="../img/recommend/temp_slide_02.jpg" class="slide_img02" alt=""></div>
+            <div class="swiper-slide"><img src="../img/recommend/temp_slide_03.jpg" class="slide_img03" alt=""></div>
+          </div>
+        </div>
+        <div class="single-about">
+          <div class="about__icon"><img src="../img/recommend/icon_information.png" alt=""></div>
+          <h2 class="single-about__heading heading-1">砂浜ビーチコーミング体験研修とは</h2>
+          <div class="single-about__text">
+            <p>
+              地域にはさまざまな課題があります。<br>
+              それらは必ずしもネガティブなことだけではなく、未来に向けてのヒントが眠っています。地域課題を解決するローカルビジネスを事業開発する目的でも、地域課題の先にある持続的な社会（SDGs）への理解を深める目的でも、地域そして地球の未来に貢献していくための学びを提供します。<br>
+              <br>
+              ビーチコーミングとは、砂浜に流れ着いた貝殻やシーグラス、海洋ゴミなどを回収、観察するアクション。<br>
+              ビーチクリーンの振り返りと一緒で、この漂着物がどのようにしてここに運ばれたのかなどを考えることで、海でつながる世界に思いをはせたり、海のSDGsについて考えるきっかけになります。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="single-category">
+        <div class="single-category__box"><div class="single-category__title">課題・目的</div><p>SDGs研修/意識改革</p></div>
+        <div class="single-category__box"><div class="single-category__title">対象</div><p>経営層/管理職/中堅</p></div>
+        <div class="single-category__box"><div class="single-category__title">実施時期</div><p>通年</p></div>
+      </div>
+		</div>
+	</div>
+  <!-- 上部タブ -->
+  <div id="tab-area"></div>
+  <div class="tab-area">
+    <div class="l-wrapper">
+      <div class="tab__link on" data-tab-body="1"><span>研修プログラム</span></div>
+      <div class="tab__link line" data-tab-body="2"><span>モニターツアー</span></div>
+      <div class="tab__link" data-tab-body="3"><span>美唄市について</span></div>
+    </div>
+  </div>
+  <!-- タブコンテンツ 1 -->
+  <div class="tab-content tab__content1 on">
+    <section class="tab01-main">
+      <div class="l-wrapper">
+        <p class="tab-content__h1">
+          企業が研修・合宿のテーマとして「SDGs」を環境面から考える機会を提供。<br>
+          砂浜ビーチコーミング＆プラスティックアート創作活動を通じて、SDGsを知ることができます。
+        </p>
+        <p class="tab-content__text">
+          南房総市では、2021年（令和3年）8月31日の令和3年南房総市議会第3回定例会の一般質問において、豊かで多様な自然に恵まれている自然環境を未来につないでいくため「ゼロカーボンシティ」を表明し、国の「2050年までに温室効果ガスの排出を全体としてゼロにする」という目標達成に向けて、脱炭素社会の実現を目指すことを表明しました。<br>
+          <a href="#">＞詳しくはこちら</a><br>
+          <br>
+          研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。研修プログラムについての内容が入ります。
+        </p>
+      </div>
+    </section>
+    <section class="tab01-merit">
+      <div class="l-wrapper">
+        <p class="tab-content__h2"><span>この研修プログラムで学べること、得られること</span></p>
+        <p class="tab-content__text mb50">
+          ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ
+        </p>
+        <div class="checkpoint-box">
+          <div class="checkpoint__title"><span><img src="../img/recommend/icon_point.png" alt="">こんな企業におすすめ！</span></div>
+          <ul class="checkpoint__list">
+            <li>地域課題をテーマにした事業開発に携わりたい企業</li>
+            <li>SDGsやサーキュラーエコノミーのヒントをリサーチしたい企業</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="tab01-sideblock">
+      <div class="l-wrapper">
+        <div class="sideblock__flex">
+          <div class="sideblock__textbox">
+            <p class="sideblock__title">南房総市の取り組み【ビーチクリーン活動】</p>
+            <p class="sideblock__text">
+              三方を海で囲まれる南房総は、首都圏から90分で来訪可能なエリアであることから、首都圏の方々にとって、身近な海洋問題を感じられるエリアです。当協会では、SDGs14「海の豊かさを守ろう」を通じた、4「質の高い教育をみんなに」を行っていくことが、重要と考えています。<br>
+              <br>
+              海岸は、気づくと多くのゴミが流れ着きます。<br>
+              大きな漂流ゴミや粗大ごみ、瓶や缶やペットボトルを拾い、素足で歩いても安心安全な環境を維持するために、ビーチクリーン活動を毎月1回開催しています。実際にゴミを拾うことはできなくても、現実を知ることで、生活の中で意識が変わり、努力し、維持する事で美しい環境が作れます。<br>
+              <br>
+              そこで、海岸で拾ったごみなどを使ったアート作品の制作、展示も行なっています。<br>
+              「遊び」の中に「学び」があって、「学び」の中に「遊び」がある。<br>
+              当協会では、文部科学省が推奨する「アクティブ・ラーニング」に取り組みながら、このような活動を通じた啓蒙活動を行なっています。
+            </p>
+          </div>
+          <div class="sideblock__img">
+            <img src="../img/recommend/temp_tab01_01.jpg" alt="">
+          </div>
+        </div>
+        <div class="sideblock__flex">
+          <div class="sideblock__textbox">
+            <p class="sideblock__title">ハローキティと一緒にハロー！SDGs！</p>
+            <p class="sideblock__text">
+              世界中の人たちが思いやりを持ち、笑顔でなかよく「ハロー！」と言い合える世界を願うキティちゃんはSDGsの達成がその願いに繋がると考え、自身のYouTubeチャンネル「HELLO KITTY CHANNEL（ハローキティチャンネル）」でSDGsについて学べる動画を公開しています。<br>
+              <br>
+              南房総市観光協会では、キティちゃんと一緒にSDGsの推進を行なっていきます。
+            </p>
+          </div>
+          <div class="sideblock__img">
+            <img src="../img/recommend/temp_tab01_02.jpg" alt="">
+            <p class="img__caption">▲ハローキティが南房総にやってきた際のインタビュー</p>
+          </div>
+        </div>
+        <div class="sideblock__flex">
+          <div class="sideblock__textbox">
+            <p class="sideblock__title">新しい働き方に出会う</p>
+            <p class="sideblock__text mb35">
+              地域でリモートワークの可能性を探ることができます。<br>
+              ワークスペースを利用しながら、日々の業務をしていただけます。ワークライフバランスを整え、生産性や創造性の向上に活用ください。テレワークを中心とした移住や２拠点生活、法人ならばサテライトオフィスの開設も視野に入れながら体験ください。<br>
+            </p>
+            <div class="checkpoint-box">
+              <div class="checkpoint__title"><span><img src="../img/recommend/icon_point.png" alt="">想定される宿泊先・ワークスペース</span></div>
+              <ul class="checkpoint__list">
+                <li><a href="#">ホテル＆リゾーツ南房総（ダイワロイヤルホテル）</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="sideblock__img">
+            <img src="../img/recommend/temp_tab01_03.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab01-movie">
+      <div class="l-wrapper">
+        <div class="movie-box">
+          <iframe width="880" height="495" src="https://www.youtube.com/embed/6j2PaHMBDHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="tab01-voice">
+      <div class="voice-box">
+        <div class="l-wrapper">
+          <div class="voice__title"><span>受講者の声</span></div>
+          <div class="voice__area">
+            <div class="voice__baloon">
+              <p>
+                ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ
+              </p>
+              <p class="voice__name">
+                アスノシステム株式会社 <br>Webサービス部 ／明日野 花子様
+              </p>
+            </div>
+            <img class="voice__img" src="../img/recommend/temp_tab01_voice01.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="voice-box">
+        <div class="l-wrapper">
+          <div class="voice__title"><span>事務局担当者からの声</span></div>
+          <div class="voice__area">
+            <div class="voice__baloon">
+              <p>
+                ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ
+              </p>
+              <p class="voice__name">
+                南房総市観光協会 ／ 明日野 太郎
+              </p>
+            </div>
+            <img class="voice__img" src="../img/recommend/temp_tab01_voice01.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab01-banner">
+      <div class="l-wrapper">
+        <a href="#"><img src="../img/recommend/temp_tab01_banner01.png" alt=""></a>
+        <a href="#"><img src="../img/recommend/temp_tab01_banner02.png" alt=""></a>
+        <a href="#"><img src="../img/recommend/temp_tab01_banner03.png" alt=""></a>
+        <a href="#"><img src="../img/recommend/temp_tab01_banner04.png" alt=""></a>        
+      </div>
+    </section>
+    <section class="tab01-program">
+      <div class="l-wrapper">
+        <div class="program-box">
+          <div class="program__title"><img src="../img/recommend/tab_icon01_on.png" alt="">プログラム概要</div>
+          <ul class="program__list">
+            <li>プログラム名：砂浜ビーチコーミング体験研修</li>
+            <li>参加条件：地域課題をテーマにした事業開発に携わりたい企業、SDGsやサーキュラーエコノミーのヒントをリサーチしたい企業など</li>
+            <li>ツアー日程：2022年10月18～20日、11月8～10日、11月15～17日</li>
+            <li>プログラム料金：XX,XXX円/1名<br>※現地までの交通費は各自負担となります。</li>
+            <li>申込期限：定員になり次第終了※お問い合わせください</li>
+            <li>備考：ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ</li>
+          </ul>
+          <p class="program__subtitle">主催・事務局情報</p>
+          <ul>
+            <li>一般社団法人 南房総市観光協会</li>
+            <li>株式会社ニッポン放送</li>
+          </ul>        
+        </div>
+      </div>
+    </section>
+    <section class="sec-button">
+      <div class="l-wrapper">
+        <a href="#" class="button"><img src="../img/recommend/icon_button_arrow.png" alt="">問い合わせはこちら</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- タブコンテンツ 2 -->
+  <div class="tab-content tab__content2">
+    <section class="tab02-header">
+      <div class="l-wrapper">
+        <div class="header-box">
+          <div class="tab02-headline"><span>モニターツアー日程</span></div>
+          <p>
+            日程１：2022/00/00～ 2022/00/00<br>
+            日程２：2022/00/00～ 2022/00/00
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="tab02-schedule">
+      <div class="l-wrapper">
+        <div class="day-block">
+          <div class="day-title"><span>- Day1 -</span><div class="title-line"></div></div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_morning.png" alt="">
+            <div class="time-table">
+              <p class="time__action">都心の自宅を出発、各自それぞれの交通手段で移動。</p>
+            </div>
+          </div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_daytime.png" alt="">
+            <div class="time-table">
+              <p class="time__action">12:30　昼食</p>
+              <p class="time__text"></p>
+              <p class="time__action">14:00　宿泊施設にチェックイン</p>
+              <p class="time__text"></p>
+              <p class="time__action">13:30～16:30　SDGs研修</p>
+              <p class="time__text">
+                ・カリキュラム名が入ります<br>
+                ・カリキュラム名が入ります
+              </p>
+            </div>
+          </div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_night.png" alt="">
+            <div class="time-table">
+              <p class="time__action">18:00　夕食</p>
+              <p class="time__text">夕食後は自由時間（ワークもよし、近隣散策もよし、宿でゆっくりするもよし)</p>
+              <div class="checkpoint-box">
+                <div class="checkpoint__title"><span><img src="../img/recommend/icon_point.png" alt="">おすすめPoint</span></div>
+                <p class="checkpoint__text">
+                  ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ<br>
+                  ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="day-block">
+          <div class="day-title"><span>- Day2 -</span><div class="title-line"></div></div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_morning.png" alt="">
+            <div class="time-table">
+              <p class="time__action">9:00　朝食</p>
+              <p class="time__text"></p>
+              <p class="time__action">10:30　砂浜ビーチコーミング</p>
+            </div>
+          </div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_daytime.png" alt="">
+            <div class="time-table">
+              <p class="time__action">12:00　昼食</p>
+              <p class="time__text"></p>
+              <p class="time__action">13:00　アートワークショップ（プラごみアート）</p>
+              <p class="time__text"></p>
+              <p class="time__action">15:00　WORK</p>
+            </div>
+          </div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_night.png" alt="">
+            <div class="time-table">
+              <p class="time__action">18:00　夕食</p>
+              <p class="time__text">夕食後は自由時間</p>
+              <div class="checkpoint-box">
+                <div class="checkpoint__title"><span><img src="../img/recommend/icon_point.png" alt="">おすすめPoint</span></div>
+                <p class="checkpoint__text">
+                  ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ<br>
+                  ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="day-block">
+          <div class="day-title"><span>- Day3 -</span><div class="title-line"></div></div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_morning.png" alt="">
+            <div class="time-table">
+              <p class="time__action">9:00　朝食後、チェックアウト</p>
+              <p class="time__text">チェックアウト後は自由時間。観光やWORKなど。</p>
+            </div>
+          </div>
+          <div class="time-block">
+            <img src="../img/recommend/tab02_icon_daytime.png" alt="">
+            <div class="time-table">
+              <p class="time__action">12:00　昼食</p>
+              <p class="time__text">宿泊施設または観光地から出発</p>
+              <p class="time__action">15:00　都心の自宅に到着</p>
+              <div class="checkpoint-box">
+                <div class="checkpoint__title"><span><img src="../img/recommend/icon_point.png" alt="">おすすめPoint</span></div>
+                <p class="checkpoint__text">
+                  ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ<br>
+                  ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab02-gallery">
+      <div class="l-wrapper">
+        <ul class="gallery__list">
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+          <li><a href="../img/recommend/tab02_gallery01.png" data-lightbox="img01"><img src="../img/recommend/tab02_gallery01.png" alt=""></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="sec-button">
+      <div class="l-wrapper">
+        <a href="#" class="button"><img src="../img/recommend/icon_button_arrow.png" alt="">問い合わせはこちら</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- タブコンテンツ 3 -->
+  <div class="tab-content tab__content3">
+    <section class="tab03-sideblock">
+      <div class="l-wrapper">
+        <div class="sideblock__flex">
+          <div class="sideblock__textbox">
+            <p class="sideblock__title">都心から90分。地域とつながる実験の場へ</p>
+            <p class="sideblock__text">
+              南房総では東京から最短１時間半という距離で、海も里山もある自然が豊かな土地柄で、SDGsの解決につながるヒントもたくさんあります。<br>
+              <br>
+              一方、人口減や産業の後継者不足など全国の地方が抱える多くの課題を持ち、現場に触れたり、リアルな地方の声を聞くことができます。さまざまな実験できる場所、それが南房総です。
+            </p>
+          </div>
+          <div class="sideblock__img">
+            <img src="../img/recommend/temp_tab03_01.jpg" alt="">
+          </div>
+        </div>
+        <div class="sideblock__flex">
+          <div class="sideblock__textbox">
+            <p class="sideblock__title">この先に出会うワーケーション体験を提供します。</p>
+            <p class="sideblock__text">
+              「ワーケーション（ワーク＋バケーション）」という言葉が広まってきましたが、まだまだハードルも高く、ともすると普通の旅行になってしまいがちです。<br>
+              <br>
+              せっかく地方に来たならば、人と出会い、試してみたいことを実践したり、移住や新しい働き方を探ったり...そんな「この先」を体験できるクリエイティブなワーケーションを南房総で提供します。
+            </p>
+          </div>
+          <div class="sideblock__img">
+            <img src="../img/recommend/temp_tab03_02.jpg" alt="">
+          </div>
+        </div>
+        <div class="sideblock__flex">
+          <div class="sideblock__textbox">
+            <p class="sideblock__title">南房総の人と出会うアクティビティ</p>
+            <p class="sideblock__text">
+              南房総ワーケーションの魅力は里山海の達人たちがガイドとなり、新しい体験に出会えること。<br>
+              <br>
+              個性的な達人たちのガイドを通して、アクティビティを体験しながら、南房総の素晴らしさや地域課題に触れることができます。<br>
+            </p>
+          </div>
+          <div class="sideblock__img">
+            <img src="../img/recommend/temp_tab03_03.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab03-access">
+      <div class="l-wrapper">
+        <div class="access__leftbox">
+          <img src="../img/recommend/tab03_icon_pin.png" alt="">
+          <p class="city-name">南房総市</p>
+          <p>までのアクセス</p>
+        </div>
+        <div class="access__rightbox">
+          <div class="access__headline"><img src="../img/recommend/tab03_icon_car.png" alt="">車を利用の場合</div>
+          <p class="strong">東京から約100分</p>
+          <div class="access__textbox">
+            <p class="access__text">〔首都高〕→浮島JCT→〔東京湾アクアライン〕→木更津JCT→〔館山自動車道・富津館山道路〕→富浦IC</p>
+            <p class="strong">横浜から約90分</p>
+            <p class="access__text">〔首都高〕→浮島JCT→〔東京湾アクアライン〕→木更津JCT→〔館山自動車道・富津館山道路〕→富浦IC</p>
+          </div>
+          <div class="access__headline"><img src="../img/recommend/tab03_icon_train.png" alt="">電車を利用の場合</div>
+          <div class="access__textbox">
+            <p class="strong">東京から約101分</p>
+            <p class="access__text">東京駅→〔特急さざなみ〕→富浦駅</p>
+            <p class="strong">蘇我から67分</p>
+            <p class="access__text">蘇我駅→〔特急さざなみ〕→富浦駅</p>
+          </div>
+          <div class="access__headline"><img src="../img/recommend/tab03_icon_bus.png" alt="">高速バスを利用の場合</div>
+          <div class="access__textbox">
+            <p class="strong">東京から107分</p>
+            <p class="access__text">東京駅→〔房総なのはな号〕→とみうら枇杷倶楽部</p>
+            <p class="strong">新宿から98分</p>
+            <p class="access__text">新宿駅→〔新宿なのはな号〕→とみうら枇杷倶楽部<br>
+            <br>
+            （注意）上記時間は目安であり、道路の混雑状況や交通機関のダイヤ等により所要時間の変動があります。</p>
+          </div>
+          <div class="access__headline"><img src="../img/recommend/tab03_icon_airplane.png" alt="">飛行機を利用の場合</div>
+          <div class="access__textbox">
+            <p class="strong">XXからXX分</p>
+            <p class="access__text">XX→XX→XXXXXXXX</p>
+            <p class="strong">XXからXX分</p>
+            <p class="access__text">XX→XX→XXXXXXXX</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec-button">
+      <div class="l-wrapper">
+        <a href="#" class="button"><img src="../img/recommend/icon_button_arrow.png" alt="">問い合わせはこちら</a>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="l-footer">
+	<a href="#" class="pagetop">PAGE TOP</a>
+	<div class="footer">
+		<p class="footer-logo"><a href="https://co-mit.jp/" class="footer-logo__image"><img src="../img/logo_white.png" alt="CO-MIT"></a><span><a href="https://co-mit.jp/">研修・合宿施設検索サイト | CO-MIT(コミット)</a></span></p>    
+    <ul class="footer-navi">
+      <li class="footer-navi__item"><a href="https://co-mit.jp/beginner/">初めての方はこちら</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/about/">CO-MITの強み</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/facility/">施設を探す</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/consult/">専門家に相談する</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/offsite/">オフサイト研修のススメ</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/column/">研修ノウハウ・コラム</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/events/">イベントに参加する</a></li>
+    </ul>    
+    <ul class="footer-navi">
+      <li class="footer-navi__item"><a href="https://co-mit.jp/contact/">掲載に関するお問い合わせ</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/faq/">よくある質問</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/agreement/">利用規約</a></li>
+      <li class="footer-navi__item"><a href="https://co-mit.jp/disclaimer/">免責事項</a></li>
+      <li class="footer-navi__item"><a href="https://asno-sys.co.jp/privacy/" target="_blank">個人情報保護方針</a></li>
+      <li class="footer-navi__item"><a href="https://asno-sys.co.jp/" target="_blank">運営会社</a></li>
+    </ul>
+    <div class="l-wrapper">
+			<ul class="banners">
+				<li class="banners__item"><a href="https://www.kaigishitu.com/" target="_blank"><img src="../offsite/img/bnr_kaigishitsu.png" alt="会議室.com"></a></li>
+				<li class="banners__item"><a href="https://www.kaigishitu.com/meeting-hacks/" target="_blank"><img src="../offsite/img/bnr_kaigihack.png" alt="会議HACK"></a></li>
+				<li class="banners__item"><a href="https://www.rental-o.com/" target="_blank"><img src="../offsite/img/bnr_rentaloffice.png" alt="レンタルオフィス.com"></a></li>
+				<li class="banners__item"><a href="https://hospitality-agent.co.jp/" target="_blank"><img src="../offsite/img/bnr_ha.png" alt="hospitality agent"></a></li>
+			</ul>
+			<ul class="sns">
+				<li class="sns__item"><a href="https://www.facebook.com/kensyu.comit/" target="_blank"><img src="../offsite/img/icon_facebook.png" alt="facebook"><span>「CO-MIT」Facebook公式アカウント</span></a></li>
+				<li class="sns__item sns__icon-youtube"><a href="https://www.youtube.com/channel/UChVGwQOstm2VFPvBZVng8VA" target="_blank"><img src="../offsite/img/icon_youtube.jpg" alt="youtube"><span>「CO-MIT」YouTube公式アカウント</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<p class="copyright">Copyright (C) ASNO SYSTEM All Rights Reserved.</p>
+</footer>
+</div>
+<script src="/workation-portal/js/jquery.min.js"></script>
+<script src="/workation-portal/js/ofi.min.js"></script>
+<script src="/workation-portal/js/swiper.min.js"></script>
+<script src="/workation-portal/js/lightbox.min.js"></script>
+<script src="/workation-portal/js/jquery.tile.min.js"></script>
+<script src="/workation-portal/js/common.js"></script>
+</body>
+</html>

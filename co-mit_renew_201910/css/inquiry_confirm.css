@@ -1,0 +1,118 @@
+@media screen and (min-width: 769px) {
+  #new-inquiry_confirm main .inner {
+    width: 1000px;
+  }
+  #new-inquiry_confirm main .common-content {
+    padding: 80px 0;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+  #new-inquiry_confirm main .section-title-area {
+    padding: 0;
+    margin-bottom: 42px;
+  }
+  #new-inquiry_confirm main .section-title-area .section-title {
+    margin: 0 0 10px;
+  }
+  #new-inquiry_confirm main .section-title-area .section-title i {
+    font-size: 4rem;
+    margin-bottom: 25px;
+  }
+  #new-inquiry_confirm main .section-title-area .section-title-en {
+    font-size: 1.4rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #727171;
+  }
+  #new-inquiry_confirm main .section-title-area .icon-mail {
+    margin-bottom: 31px;
+  }
+  #new-inquiry_confirm main .section-title-area .section-title-ja {
+    font-weight: normal;
+    font-size: 2rem;
+  }
+  #new-inquiry_confirm main .section-title-area .section-catch {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+  #new-inquiry_confirm main .btn-area button {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #new-inquiry_confirm main .inner {
+    width: auto;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #new-inquiry_confirm main .common-content {
+    padding: 35px 0;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+  #new-inquiry_confirm main .section-title-area {
+    margin-bottom: 60px;
+  }
+  #new-inquiry_confirm main .section-title-area .section-title i {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  #new-inquiry_confirm main .section-title-area .section-title-en {
+    font-size: 1.4rem;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #727171;
+  }
+  #new-inquiry_confirm main .section-title-area .icon-balloon {
+    font-size: 3rem;
+    margin-bottom: 23px;
+  }
+  #new-inquiry_confirm main .section-title-area .section-title-ja {
+    margin-bottom: 8px;
+    font-weight: normal;
+  }
+  #new-inquiry_confirm main .section-title-area .section-catch {
+    padding: 0 15px;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+  #new-inquiry_confirm main .contact-table th {
+    display: block;
+    width: auto;
+    background: none;
+    padding: 10px 0 0;
+    border: none;
+  }
+  #new-inquiry_confirm main .contact-table th .required {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    right: auto;
+    top: auto;
+    margin-top: -12px;
+    margin-left: 10px;
+  }
+  #new-inquiry_confirm main .contact-table th.middle-caption-cell {
+    padding: 10px;
+    background: #F7F7F7;
+  }
+  #new-inquiry_confirm main .contact-table td {
+    display: block;
+    background: none;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #D6D7D7;
+  }
+  #new-inquiry_confirm main .contact-table tr:last-child td {
+    border-bottom: 0;
+  }
+  #new-inquiry_confirm main .btn-area button {
+    border: none;
+  }
+}

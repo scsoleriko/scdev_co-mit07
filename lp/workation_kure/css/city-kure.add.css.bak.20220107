@@ -1,0 +1,34 @@
+.modal-wrap{
+	width: 100%;
+}
+.modaal-content-container {
+	background: #f0f0f0;
+	padding: 20px;
+}
+
+@media screen and (max-width: 768px){
+	.modaal-content-container {
+		padding: 10px;
+	}
+	.modaal-wrapper .modaal-close {
+		position: absolute;
+		top: -30px;
+		right: -11px;
+	}
+}
+
+@media screen and (max-height: 1000px){
+	.modaal-iframe .modaal-inner-wrapper {
+		padding-top: 0px;
+		padding-bottom: 0pxt;
+	}
+}
+
+.modaal-iframe .modaal-inner-wrapper {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.modaal-iframe  .modaal-container {
+	height:90%;
+}

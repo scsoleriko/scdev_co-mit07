@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /workation-portal/recommend/
+RewriteRule ^bibai.html$ /workation-portal/recommend/bibai/index.html [R=301,L]
+RewriteRule ^sendai.html$ /workation-portal/recommend/sendai/index.html [R=301,L]
+RewriteRule ^minamiboso.html$ /workation-portal/recommend/minamiboso/index.html [R=301,L]
+RewriteRule ^tagawa.html$ /workation-portal/recommend/tagawa/index.html [R=301,L]

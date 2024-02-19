@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>CO-MITワーケーションポータル｜CO-MIT(コミット)企業研修・宿泊研修施設</title>
+<meta name="viewport" content="width=device-width" />
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/workation-portal/css/swiper.css">
+<link rel="stylesheet" href="/workation-portal/css/lightbox.min.css">
+<link rel="stylesheet" href="/workation-portal/css/style.css">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://co-mit.jp/workation-portal/">
+<meta name="description" content="">
+<meta property="og:title" content="CO-MITワーケーションポータル｜CO-MIT(コミット)企業研修・宿泊研修施設">
+<meta property="og:description" content="">
+<meta property="og:image" content="img/ogp_workationportal.jpg">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://co-mit.jp/workation-portal/">
+
+<!-- Google Tag Manager --> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K8JCTJV');</script> 
+<!-- End Google Tag Manager -->
+
+</head>
+<body>
+<div class="l-body l-body--home">
+  <header class="l-header">
+    <h1 class="header-logo"> <a href="/workation-portal/"> <img class="pc-only" src="img/logo_white.png" alt="CO-MITワーケーションポータル"> <img class="sp-only" src="img/logo_color.png" alt="CO-MITワーケーションポータル"> </a> </h1>
+    <nav class="navi" aria-label="サイトメニュー">
+      <div class="navi__wrapper">
+        <ul class="navi__items">
+          <li class="navi__item"><a href="/workation-portal/#search">エリアから探す</a></li>
+          <li class="navi__item"><a href="/workation-portal/#recommend">研修プログラム一覧</a></li>
+          <li class="navi__item"><a href="/workation-portal/#post">ワーケーション関連記事</a></li>
+        </ul>
+      </div>
+    </nav>
+    <button type="button" class="menu-btn" aria-label="サイトメニューを開く"> <span class="menu-btn__icon"> <span></span> <span></span> <span></span> </span> </button>
+  </header>
+  <main class="l-main">
+    <div class="home-fv">
+      <div class="l-wrapper home-fv__wrapper">
+        <div class="home-fv__content">
+          <h2 class="home-fv__heading"><img src="img/logo_white.png" alt="CO-MITワーケーションポータル">ワーケーション</h2>
+          <p class="home-fv__text">企業のためのワーケーションポータル。<br>
+            研修や育成、福利厚生など<br class="sp-only">
+            課題や目的に応じたプログラムのご紹介。</p>
+        </div>
+      </div>
+    </div>
+    <section class="catch">
+      <div class="l-wrapper">
+        <p class="catch__main-text">オンラインだけでは醸成できない、<br class="sp-only">
+          リアルのチカラを感じにいきませんか？</p>
+      </div>
+      <div class="catch__text-area">
+        <div class="catch__img"><img src="img/catch_img.png" alt=""></div>
+        <div class="catch__text-box">
+          <div class="catch__logo-label"><span><img src="img/label_logo.png" alt=""></span></div>
+          <p class="catch__text"> コロナ禍を通じて企業内の多くのイベントは強制的にオンライン化されました。<br>
+            その結果、オンラインの良い点と悪い点が顕在化し、さらにリアルでやることの価値は再認識されています。オンラインの良いところは活かしつつ、リアルでないとできないところをうまく取り入れていくことが、これからの企業の成長戦略には必要不可欠です。<br>
+            <br>
+            職場の喧騒を離れた環境下で仲間と時間を共にして、日常では経験できないリアルの価値（環境や体験価値）を五感で感じ、組織や個人の未来を創造していく、そんな企業にとってのワーケーションのご紹介です。 </p>
+        </div>
+      </div>
+    </section>
+    <section class="workation-category">
+      <div class="l-wrapper">
+        <p class="home__h1">企業向けワーケーションのカテゴリ</p>
+        <ul class="category-list">
+          <li>
+            <div class="category-box__img"> <a href="#learning">
+              <p class="category-box__title">ラーニング型</p>
+              <p class="category-box__caption">チームビルディング・フィールドスタディ<br>
+                ・次世代リーダー育成など</p>
+              </a> </div>
+            <p class="category__text"> 「そこでしか体験できない」ことを通じ個人や会社に対する新たな気づきを得たり、非日常が生む環境から組織と個人、メンバー同士が「ありのまま本音で語り合う」関係性を構築（再生）し、組織の創造的活力やチームとしての一体感を生み出し、未来を照らしていくことが目的。 </p>
+          </li>
+          <li>
+            <div class="category-box__img"> <a href="#business_innovation">
+              <p class="category-box__title">ビジネス創出型</p>
+              <p class="category-box__caption">地域課題解決・地方創生・地域交流など</p>
+              </a> </div>
+            <p class="category__text"> 地域がかかえる課題の解決を考えたり、視察や地元企業との交流を通じて、自社ビジネスが持つ技術や知見の応用や持続可能な取組についてを考えます。地域課題の解決を支援していくことがCSR（企業の社会的責任）活動への積極的な姿勢にもなり、企業価値を高めることにもつながります。 </p>
+          </li>
+          <li>
+            <div class="category-box__img"> <a href="#benefits">
+              <p class="category-box__title">福利厚生型</p>
+              <p class="category-box__caption">社員旅行・ウェルネス・インセンティブなど</p>
+              </a> </div>
+            <p class="category__text"> 主にリゾートや観光地で過ごすリフレッシュをメインに、しっかりとテレワークも行える環境での実施が理想のワーケーション。運動不足解消を目的とした健康経営や、従業員の心身のストレスを軽減させるメンタルヘルスなどが目的。 </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="offsite">
+      <div class="l-wrapper"> <img src="img/offsite_logo.png" alt="">
+        <p class="offsite__text">ラーニング型ワーケーションを<br class="sp-only">
+          もっと知りたい方はこちら！<br>
+          CO-MITが厳選する<br class="sp-only">
+          研修プログラムと施設をご紹介。</p>
+        <a href="/offsite/" class="offsite__link" target="_blank">
+        <div class="offsite__hoverbox"></div>
+        <img src="img/offsite_button.png" alt=""></a> </div>
+    </section>
+    <section id="search" class="search">
+      <div class="l-wrapper">
+        <div class="search-area">
+          <p class="search-area__title">企業向けワーケーションを<br class="sp-only">
+            エリアから探す</p>
+          <p class="search-area__text">対象の自治体をカテゴリや目的にあわせて絞り込むことが出来ます。</p>
+          <div class="search-box">
+            <form name="form1">
+              <div class="search-box__select-list">
+                <select class="select__category" name="category">
+                  <option value="" selected>カテゴリ</option>
+                  <option value="ラーニング型">ラーニング型</option>
+                  <option value="ビジネス創出型">ビジネス創出型</option>
+                  <option value="福利厚生型">福利厚生型</option>
+                </select>
+                <select class="select__purpose" name="purpose">
+                  <option value="" selected>課題・目的</option>
+                  <option value="意識改革">意識改革</option>
+                  <option value="チームビルディング">チームビルディング</option>
+                  <option value="地域交流">地域交流</option>
+                  <option value="役職・管理者研修">役職・階層別研修</option>
+                  <option value="次世代リーダー育成">次世代リーダー育成</option>
+                  <option value="SDGs研修">SDGs研修</option>
+                  <option value="イノベーションの創出">イノベーションの創出</option>
+                  <option value="ワークライフバランスの向上">ワークライフバランスの向上</option>
+                  <option value="開発合宿">開発合宿</option>
+                  <option value="ビジョンメイク">ビジョンメイク</option>
+                  <option value="キックオフミーティング">キックオフミーティング</option>
+                  <option value="フィールドメソッド">フィールドメソッド</option>
+                  <option value="ブレストミーティング">ブレストミーティング</option>
+                  <option value="短期集中">短期集中</option>
+                </select>
+                <select class="select__target" name="target">
+                  <option value="" selected>対象</option>
+                  <option value="若手">若手</option>
+                  <option value="中堅">中堅</option>
+                  <option value="経営層・管理職">経営層・管理職</option>
+                </select>
+              </div>
+              <div class="search-box__checkbox-list">
+                <div>
+                  <input type="checkbox" id="checkbox__tour" name="search__checkbox">
+                  <label for="checkbox__tour" class="search__checkbox">モニターツアー実施中</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="checkbox__payment" name="search__checkbox">
+                  <label for="checkbox__payment" class="search__checkbox">補助金対象</label>
+                </div>
+              </div>
+              <a href="javascript:void(0);" id="map_search" class="button">該当する地域を表示</a>
+            </form>
+          </div>
+          <a href="#recommend" class="search__workation-link">すべてのワーケーションを見る<img src="img/icon_arrow.png" alt=""></a> </div>
+        <div class="search-map">
+          <div class="search-map__img"> <img src="img/map_all.png" alt="" class="map__all"> <img src="img/map_hokkaido.png" alt="" class="map__area on" id="map__hokkaido"> <img src="img/map_tohoku.png" alt="" class="map__area on" id="map__tohoku"> <img src="img/map_koshinetsu.png" alt="" class="map__area on" id="map__koshinetsu"> <img src="img/map_kanto.png" alt="" class="map__area on" id="map__kanto"> <img src="img/map_tokai.png" alt="" class="map__area" id="map__tokai"> <img src="img/map_kinki.png" alt="" class="map__area on" id="map__kinki"> <img src="img/map_chugoku.png" alt="" class="map__area on" id="map__chugoku"> <img src="img/map_shikoku.png" alt="" class="map__area" id="map__shikoku"> <img src="img/map_kyushu.png" alt="" class="map__area on" id="map__kyushu"> <img src="img/map_okinawa.png" alt="" class="map__area" id="map__okinawa"> </div>
+          <div class="search-map__name">
+            <div id="hokkaido" class="map__area-box hokkaido on">
+              <div class="map__area-name">北海道</div>
+              <ul class="map__city-list">
+                <li><a href="#bibai" id="city_bibai" class="on">美唄市</a></li>
+                <li><a href="#chitose" id="city_chitose" class="on">千歳市</a></li>
+              </ul>
+            </div>
+            <div id="tohoku" class="map__area-box tohoku on">
+              <div class="map__area-name">東北</div>
+              <ul class="map__city-list">
+                <li><a href="#sendai" id="city_sendai" class="on">仙台市</a></li>
+                <li><a href="#minamisanriku" id="city_minamisanriku" class="on">南三陸町</a></li>
+                <li><a href="#higashimatsushima" id="city_higashimatsushima" class="on">東松島市</a></li>
+                <li><a href="#kawasakimachi" id="city_kawasakimachi" class="on">川崎町</a></li>
+                <li><a href="#marumori" id="city_marumori" class="on">丸森町</a></li>
+                <li><a href="#kamaishi" id="city_kamaishi" class="on">釜石市</a></li>
+                <li><a href="#shiraishi" id="city_shiraishi" class="on">白石市</a></li>
+                <li><a href="#shichikashuku" id="city_shichikashuku" class="on">七ヶ宿町</a></li>
+                <li><a href="#natori" id="city_natori" class="on">名取市</a></li>
+                <li class="border__none"></li>
+              </ul>
+            </div>
+            <div id="koshinetsu" class="map__area-box koshinetsu on">
+              <div class="map__area-name">甲信越</div>
+              <ul class="map__city-list">
+                <li class="center"><a href="#tateshina" id="city_tateshina" class="on">立科町</a></li>
+              </ul>
+            </div>
+            <div id="kanto" class="map__area-box kanto on">
+              <div class="map__area-name">関東</div>
+              <ul class="map__city-list">
+                <li><a href="#minamibousou" id="city_minamibousou" class="on">南房総市</a></li>
+                <li><a href="#kitakaruizawa" id="city_kitakaruizawa" class="on">北軽井沢</a></li>
+                <li><a href="#kamakura" id="city_kamakura" class="on">鎌倉市</a></li>
+                <li class="border__none"></li>
+              </ul>
+            </div>
+            <div id="tokai" class="map__area-box tokai">
+              <div class="map__area-name">東海・北陸</div>
+            </div>
+            <div id="kinki" class="map__area-box kinki on">
+              <div class="map__area-name">近畿</div>
+              <ul class="map__city-list">
+                <li><a href="#matsusaka" id="city_matsusaka" class="on">松阪市</a></li>
+                <li><a href="#toba" id="city_toba" class="on">鳥羽市</a></li>
+                <li><a href="#odai" id="city_odai" class="on">大台町</a></li>
+                <li><a href="#kihoku" id="city_kihoku" class="on">紀北町</a></li>
+                <li><a href="#komono" id="city_komono" class="on">菰野町</a></li>
+                <li><a href="#shima" id="city_shima" class="on">志摩市</a></li>
+              </ul>
+            </div>
+            <div id="chugoku" class="map__area-box chugoku on">
+              <div class="map__area-name">中国</div>
+              <ul class="map__city-list">
+                <li><a href="#suouoshima" id="city_suouoshima" class="on">周防大島町</a></li>
+                <li><a href="#iwakuni" id="city_iwakuni" class="on">岩国市</a></li>
+                <li><a href="#ube" id="city_ube" class="on">宇部市</a></li>
+                <li><a href="#hagi" id="city_hagi" class="on">萩市</a></li>
+                <li><a href="#nagato" id="city_nagato" class="on">長門市</a></li>
+                <li class="border__none"></li>
+              </ul>
+            </div>
+            <div id="shikoku" class="map__area-box shikoku">
+              <div class="map__area-name">四国</div>
+            </div>
+            <div id="kyushu" class="map__area-box kyushu on">
+              <div class="map__area-name">九州</div>
+              <ul class="map__city-list">
+                <li class="center"><a href="#tagawa" id="city_tagawa" class="on">田川市</a></li>
+              </ul>
+            </div>
+            <div id="okinawa" class="map__area-box okinawa">
+              <div class="map__area-name">沖縄</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--<section class="pickup">
+      <div class="l-wrapper">
+        <p class="home__h1">PICK UP</p>
+        <div class="pickup-list">
+          <figure class="pickup-box"> <a href="recommend/minamiboso/" target="_blank"> <img src="img/pickup01.jpg" alt=""/>
+            <figcaption>
+              <h2>
+                <div class="pickup-box__tag"> <span class="pickup-box__category">ラーニング型</span> <span class="pickup-box__area">南房総市/千葉県</span> </div>
+                <div class="pickup-box__title">南房総市独自の環境SDGsを考える<br>
+                  砂浜ビーチクリーン体験と<br>
+                  SDGs企業研修ワーケーション </div>
+                <div class="pickup-box__label"><span>モニターツアー参加者募集中!!</span></div> 
+              </h2>
+              <p>「環境」をテーマにしたSDGs企業研修・ワークショップを通じてSDGsへの理解と環境保護の重要さを再認識できます。</p>
+            </figcaption>
+            </a> </figure>
+          <figure class="pickup-box"> <a href="recommend/sendai/" target="_blank"> <img src="img/pickup_sendai.jpg" alt="img09"/>
+            <figcaption>
+              <h2>
+                <div class="pickup-box__tag"> <span class="pickup-box__category">ラーニング型</span> <span class="pickup-box__area">仙台市/宮城県</span> </div>
+                <div class="pickup-box__title">仙台市の復興体験から学ぶ<br>
+                  防災SDGs企業研修ワーケーション</div>
+                <div class="pickup-box__label"><span>モニターツアー参加者募集中!!</span></div> 
+              </h2>
+              <p>震災遺構荒浜小学校を通して、防災×SDGsをテーマに<br class="pc-only">
+                東北（仙台市）ならではのワーケーションが体感できます。</p>
+            </figcaption>
+            </a> </figure>
+          <figure class="pickup-box"> <a href="recommend/bibai/" target="_blank"> <img src="img/pickup02.jpg" alt="img10"/>
+            <figcaption>
+              <h2>
+                <div class="pickup-box__tag"> <span class="pickup-box__category">ビジネス創出型</span> <span class="pickup-box__area">美唄市/北海道</span> </div>
+                <div class="pickup-box__title">旧産炭地が生んだ「ホワイトデータセンター（WDC）構想」に学ぶ<br class="pc-only">
+                  ビジネスイノベーションツアー</div>
+                <div class="pickup-box__label"><span>モニターツアー参加者募集中!!</span></div>
+              </h2>
+              <p>人口減少や高齢化が進む街で実現しようとされる循環社会を<br class="pc-only">
+                研究者本人から聴き、自社・自分にとっての未来を考えます。</p>
+            </figcaption>
+            </a> </figure>
+          <figure class="pickup-box"> <a href="recommend/tagawa/"> <img src="img/pickup04.jpg" alt="img10"/>
+            <figcaption>
+              <h2>
+                <div class="pickup-box__tag"> <span class="pickup-box__category">ラーニング型</span> <span class="pickup-box__area">田川市/福岡県</span> </div>
+                <div class="pickup-box__title"> 田川市 地域課題解決型<br>
+                  企業ワーケーションプログラム</div>
+                <div class="pickup-box__label"><span>モニターツアー参加者募集中!!</span></div> 
+              </h2>
+              <p>SDGs・共生社会の実現に取り組む田川市が直面してきた<br class="pc-only">
+                課題と復行策を、ワーケーションを通して体験ができます。</p>
+            </figcaption>
+            </a> </figure>
+        </div>
+      </div>
+    </section>-->
+    <section id="recommend" class="recommend">
+      <div class="l-wrapper">
+        <p class="home__h1">おすすめワーケーションプログラム</p>
+        <p class="section__text"> CO-MITがおすすめするワーケーションプログラムをご紹介します。<br>
+          目的や効果、また各研修の実施に最適な施設やモデルプランも合わせてご案内しております。 </p>
+        <div class="recommend__category" id="learning">
+          <div class="recommend__category-name"> ラーニング型
+            <div class="question__baloon">日常では経験できない体験や見分を通じてコミュニケーションや思考を高め、組織や個人の未来を創造していくワーケーション</div>
+          </div>
+          <a href="javascript:void(0);" class="question"><img src="img/icon_question.png" alt=""></a>
+          <div class="title-line"></div>
+        </div>
+        <ul class="recommend-list">
+          <li id="minamibousou"> <a href="recommend/minamiboso/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/recommend01.png" alt=""> 
+              <!-- p class="recommend-list__img-location">モニターツアー参加者募集中!!</p --> 
+            </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>南房総市/千葉県</span></p>
+              <p class="recommend-list__title">南房総市独自の環境SDGsを考える砂浜ビーチクリーン体験とSDGs企業研修ワーケーション</p>
+              <p class="recommend-list__text">「環境」をテーマにしたSDGs企業研修・ワークショップを通じてSDGsへの理解と環境保護の重要さを再認識できます。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>意識改革/チームビルディング/SDGs研修/イノベーションの創出</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+          <li id="sendai"> <a href="recommend/sendai/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/sendai_ichiran.jpg" alt=""> 
+              <!-- p class="recommend-list__img-location">モニターツアー参加者募集中!!</p --> 
+            </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>仙台市/宮城県</span></p>
+              <p class="recommend-list__title">震災遺構「荒浜小学校」見学ツアーとSDGs企業研修ワーケーション</p>
+              <p class="recommend-list__text">震災遺構荒浜小学校を通して、防災×SDGsをテーマに東北（仙台市）ならではのワーケーションが体感できます。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>意識改革/チームビルディング/SDGs研修/イノベーションの創出</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>若手/中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+          <li id="tagawa"> <a href="recommend/tagawa/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/tagawa_ichiran.jpg" alt=""> 
+              <!-- p class="recommend-list__img-location">モニターツアー参加者募集中!!</p --> 
+            </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>田川市/福岡県</span></p>
+              <p class="recommend-list__title">田川市 地域課題解決型企業ワーケーションプログラム</p>
+              <p class="recommend-list__text">「SDGs・共生社会の実現に取り組んでいる田川市」が直面してきた課題と復行策を、ワーケーションを通して体験ができます。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>チームビルディング/地域交流/SDGs研修/イノベーションの創出</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>若手/中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+          <li id="kitakaruizawa"> <a href="/offsite/takiviva/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/takiviva_ichiran.jpg" alt=""> <img src="img/icon_recommend_taiwa.png" class="recommend-icon"> </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>北軽井沢/群馬県</span></p>
+              <p class="recommend-list__title">焚火を活用したオフサイトミーティング『焚火ミーティング@TAKIVIVA』</p>
+              <p class="recommend-list__text">キャンプ場とも異なる独創的な宿泊型ミーティング施設で大小様々な火を介しながら、安心して話し合える状態つくることで、組織がチームとしての一体感や創造的な活力を生み出していくことが目的です。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>チームビルディング/役職・管理層別研修/ビジョンメイク/キックオフミーティング</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>若手/中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+          <li id="minamisanriku"> <a href="/offsite/minamisanriku_fst/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/minamisanriku_fst_ichiran.jpg" alt=""> <img src="img/icon_recommend_taiken.png" class="recommend-icon"> </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>南三陸町/宮城県</span></p>
+              <p class="recommend-list__title">震災復興の担い手から学ぶフィールドスタディ『東北南三陸フィールドスタディツアー』</p>
+              <p class="recommend-list__text">東日本大震災で甚大な被害を受けた南三陸町で、地域のために立ち上がった復興リーダー達がいました。そのリーダーたちの志に直に触れ、他にない「気づき体験」を得ることができる貴重なプログラムです。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>意識改革/次世代リーダー育成/フィールドメソッド</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+          <li id="tateshina"> <a href="/offsite/tateshina_worktrip/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/tateshina_worktrip_ichiran.jpg" alt=""> <img src="img/icon_recommend_taiwa.png" class="recommend-icon"> </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>立科町/長野県</span></p>
+              <p class="recommend-list__title">WORKマシマシ・ワーケーション『立科WORK TRIP』</p>
+              <p class="recommend-list__text">ワーケーションは「ワーク×バケーション」と解釈されるケースが多いが、文字通りオフサイトをゴールにしない、成果が出やすい脱バケーション型ワーケーション。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>チームビルディング/開発合宿/ブレストミーティング/短期集中</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+        </ul>
+        <ul class="freespace-list">
+          <li id="chitose"><a href="https://chitose-workation.jp/model/94.html" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>千歳市/北海道</span></div>
+              <p class="freespace-list__title">千歳ならではの自然環境で、ビジネスに役立つスキルを学ぶ企業研修型ワーケーション</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/チームビルディング/地域交流/SDGs研修</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a> </li>
+          <li id="higashimatsushima"><a href="https://miyagiwa.com/plan/higashimatsushima-healing/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>東松島市/宮城県</span></div>
+              <p class="freespace-list__title">希望・防災・未来体験で、自分をアップデート！ヒーリングワーケーション</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/次世代リーダー育成/SDGs研修/フィールドメソッド</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="kawasakimachi"><a href="https://miwork.jp/plan-search/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>川崎町/宮城県</span></div>
+              <p class="freespace-list__title">「田舎暮らしの1ページ目」を知るラーニング型ワーケーション</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>地域交流/ビジョンメイク</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="matsusaka"><a href="https://workation.pref.mie.lg.jp/modelplan/167" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>松阪市/三重県</span></div>
+              <p class="freespace-list__title">極上の自然と多様な銘木に癒される！肉文化のまち「松阪」で肉三昧！ワーケーションプラン</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/地域交流/SDGs研修/イノベーションの創出</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="toba"><a href="https://workation.pref.mie.lg.jp/modelplan/9" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>鳥羽市/三重県</span></div>
+              <p class="freespace-list__title">Anchor.漁師の貸切アジト チームワーケーションプラン</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/イノベーションの創出/ビジョンメイク/フィールドメソッド</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="suouoshima"><a href="https://yamaguchi-workation.com/program/detail/?id=22" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>周防大島町/山口県</span></div>
+              <p class="freespace-list__title">解放感あふれるカジュアルアウトドアプログラム</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+        </ul>
+        <div class="recommend__category" id="business_innovation">
+          <div class="recommend__category-name"> ビジネス創出型
+            <div class="question__baloon">地域がかかえる課題の解決を考えたり、視察や交流を通じて、自社ビジネスが持つ技術や知見の応用について考えるワーケーション</div>
+          </div>
+          <a href="javascript:void(0);" class="question"><img src="img/icon_question.png" alt=""></a>
+          <div class="title-line"></div>
+        </div>
+        <ul class="recommend-list">
+          <li id="bibai"> <a href="recommend/bibai/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/bibai_ichiran.jpg" alt="">
+              <!--<p class="recommend-list__img-location">モニターツアー参加者募集中!!</p>-->
+            </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>美唄市/北海道</span></p>
+              <p class="recommend-list__title">旧産炭地が生んだ「ホワイトデータセンター（WDC）構想」に学ぶビジネスイノベーションツアー</p>
+              <p class="recommend-list__text">人口減少や高齢化が進む街で実現しようとされる循環社会を研究者本人から聴き、自社・自分にとっての未来を考えます。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>地域交流/次世代リーダー育成/SDGs研修/イノベーションの創出</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>若手/中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+        </ul>
+        <ul class="freespace-list">
+          <li id="marumori"><a href="https://miwork.jp/plan/marumori-masamune/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>丸森町/宮城県</span></div>
+              <p class="freespace-list__title">伊達政宗公初陣の地！ここから始まるビジネスセッション！視察型ワーケーション</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/地域交流/イノベーションの創出</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="kamaishi"><a href="https://www.workcation.visitkamaishi.jp/program/session-06/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>釜石市/岩手県</span></div>
+              <p class="freespace-list__title">徹底したお客様視点で浜値日本一に成功した、「高付加価値」ホタテ商店</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/地域交流/次世代リーダー育成/フィールドメソッド</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="iwakuni"><a href="https://yamaguchi-workation.com/program/detail/?id=32" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>岩国市/山口県</span></div>
+              <p class="freespace-list__title">リモートワーク企業交流プログラム</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/地域交流/イノベーションの創出</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="ube"><a href="https://yamaguchi-workation.com/program/detail/?id=34" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>宇部市/山口県</span></div>
+              <p class="freespace-list__title">地域の起業家との交流プログラム</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/地域交流/イノベーションの創出</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="hagi"><a href="https://yamaguchi-workation.com/program/detail/?id=36" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>萩市/山口県</span></div>
+              <p class="freespace-list__title">サテライトオフィス進出・企業交流プログラム</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/地域交流/イノベーションの創出</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="nagato"><a href="https://yamaguchi-workation.com/program/detail/?id=38" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>長門市/山口県</span></div>
+              <p class="freespace-list__title">空き旅館の活用による新規ビジネス創出プログラム</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/地域交流/イノベーションの創出</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+        </ul>
+        <div class="recommend__category" id="benefits">
+          <div class="recommend__category-name"> 福利厚生型
+            <div class="question__baloon">運動不足解消や、従業員の心身のストレスを軽減させるメンタルヘルスなど主にリゾートや観光地で行うワーケーション</div>
+          </div>
+          <a href="javascript:void(0);" class="question"><img src="img/icon_question.png" alt=""></a>
+          <div class="title-line"></div>
+        </div>
+		 <ul class="recommend-list">
+          <li id="wakuraonsen"> <a href="recommend/wakuraonsen/" target="_blank">
+            <div class="recommend-list__img-area"> <img src="img/wakuraonsen_ichiran.jpg" alt="">
+              <!--<p class="recommend-list__img-location">モニターツアー参加者募集中!!</p>-->
+            </div>
+            <div class="recommend-list__text-area">
+              <p class="recommend-list__area"><span>七尾市/石川県</span></p>
+              <p class="recommend-list__title">世界農業遺産に認定された能登半島和倉温泉で「幸せ」をデザインする企業研修ワーケーション</p>
+              <p class="recommend-list__text">能登の里山里海で、自然や潮風を感じながらディスカッションします。焚火やBBQ、地元ならではのアクティビティに挑戦する中で、幸せを感じることができる、そんなリラックスしたワーケーションプログラムです。</p>
+              <div class="single-category">
+                <div class="single-category__box">
+                  <div class="single-category__title">課題・目的</div>
+                  <p>意識改革/チームビルディング</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">対象</div>
+                  <p>若手/中堅/経営層・管理職</p>
+                </div>
+                <div class="single-category__box">
+                  <div class="single-category__title">実施時期</div>
+                  <p>通年</p>
+                </div>
+              </div>
+            </div>
+            <div class="arrow"><img src="img/icon_recommend_arrow.png" alt=""></div>
+            </a> </li>
+        </ul> 
+        <ul class="freespace-list">
+          <li id="shiraishi"><a href="https://miyagiwa.com/plan/shiroishi-temple/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>白石市/宮城県</span></div>
+              <p class="freespace-list__title">禅に学び、仕事に活かす。片倉小十郎公の菩提寺で「ZEN WORKCATION」</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>意識改革/地域交流/ワークライフバランスの向上</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="shichikashuku"><a href="https://miwork.jp/plan-search/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>七ヶ宿町/宮城県</span></div>
+              <p class="freespace-list__title">七ヶ宿町で冬のアクティビティを楽しむ、自然満喫ワーケーションプラン</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/ワークライフバランスの向上</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="natori"><a href="https://miyagiwa.com/plan/natori-sports-active/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>名取市/宮城県</span></div>
+              <p class="freespace-list__title">名取閖上・震災復興エデュケーショナル・スポーツワーケーション</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>地域交流/ワークライフバランスの向上</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="kamakura"><a href="https://kamakuraworkation.com/workationprogram/" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>鎌倉市/神奈川県</span></div>
+              <p class="freespace-list__title">鎌倉ならではのコンテンツを織り交ぜた研修プログラム</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>地域交流/イノベーションの創出</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="odai"><a href="https://workation.pref.mie.lg.jp/modelplan/144" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>大台町/三重県</span></div>
+              <p class="freespace-list__title">最高のアウトドアフィールドで遊びもお仕事も大満喫 ワーケーションプラン</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/イノベーションの創出/ビジョンメイク/キックオフミーティング</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="kihoku"><a href="https://workation.pref.mie.lg.jp/modelplan/12" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>紀北町/三重県</span></div>
+              <p class="freespace-list__title">企業、団体様向け　会議・研修＆体験プラン</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/地域交流/ビジョンメイク/キックオフミーティング</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="komono"><a href="https://workation.pref.mie.lg.jp/modelplan/158" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>菰野町/三重県</span></div>
+              <p class="freespace-list__title">御在所岳の絶景！歴史溢れる湯の山温泉、鈴鹿国定公園を巡るワーケーションプラン</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/地域交流</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+          <li id="shima"><a href="https://workation.pref.mie.lg.jp/modelplan/15" target="_blank">
+            <div class="freespace-list__box">
+              <div class="freespace-list__area"><span>志摩市/三重県</span></div>
+              <p class="freespace-list__title">仕事でも、遊びでも思いっきり楽しめる。チームでワーケーション！</p>
+            </div>
+            <div class="freespace-list__category">
+              <div class="freespace-list__category-box">課題・目的</div>
+              <p>チームビルディング/ビジョンメイク/キックオフミーティング</p>
+              <div class="freespace-list__link">詳細はこちら<img src="/co-mit_renew_201910/img/popup_icon.png"></div>
+            </div>
+            </a></li>
+        </ul>
+      </div>
+    </section>
+    <!--<section class="sonota">
+      <div class="l-wrapper">
+        <p class="home__h1">その他の自治体のワーケーション情報</p>
+        <p class="section__text">ワーケーションに力を入れている自治体をもっと知りたい方へ。<br>
+          上記でご紹介しきれなかった自治体のワーケーション情報をご紹介しています。</p>
+        <div class="swiper-container_wrap">
+          <div class="sonota-list swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> <a href="#" target="_blank">
+                <div class="sonota-list__category">北海道エリア</div>
+                <img src="img/recommend/bibai/bibai_slide_03.jpg" class="slide_img01" alt="">
+                <p class="sonota-list__title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <div class="post__more">→記事を読む</div>
+              </div>
+              <div class="swiper-slide"> <a href="#" target="_blank">
+                <div class="sonota-list__category">北海道エリア</div>
+                <img src="img/recommend/bibai/bibai_slide_01.jpg" class="slide_img01" alt="">
+                <p class="sonota-list__title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <div class="post__more">→記事を読む</div>
+                </a></div>
+              <div class="swiper-slide"> <a href="#" target="_blank">
+                <div class="sonota-list__category">北海道エリア</div>
+                <img src="img/recommend/bibai/bibai_slide_02.jpg" class="slide_img01" alt="">
+                <p class="sonota-list__title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <div class="post__more">→記事を読む</div>
+                </a></div>
+              <div class="swiper-slide"> <a href="#" target="_blank">
+                <div class="sonota-list__category">北海道エリア</div>
+                <img src="img/recommend/bibai/bibai_slide_03.jpg" class="slide_img01" alt="">
+                <p class="sonota-list__title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <div class="post__more">→記事を読む</div>
+                </a></div>
+              <div class="swiper-slide"> <a href="#" target="_blank">
+                <div class="sonota-list__category">北海道エリア</div>
+                <img src="img/recommend/bibai/bibai_slide_02.jpg" class="slide_img01" alt="">
+                <p class="sonota-list__title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <div class="post__more">→記事を読む</div>
+                </a></div>
+            </div>
+          </div>
+          <div class="swiper-button-prev-column sonota-prev"></div>
+          <div class="swiper-button-next-column sonota-next"></div>
+        </div>
+        <div class="button-area"> <a href="/" class="button" target="_blank">もっと見る</a> </div>
+      </div>
+    </section>-->
+    <section class="hojokin">
+      <div class="l-wrapper">
+        <p class="hojokin__text">その他、研修合宿にも使える<br>
+          ワーケーション助成金・補助金情報まとめページをご用意しております</p>
+        <div class="hojokin__link"><a href="/column/workation_subsidy2021/" target="_blank"><span>助成金・補助金情報</span><img src="img/icon_arrow_bk.png" alt=""></a></div>
+      </div>
+    </section>
+    <section class="pr">
+      <div class="l-wrapper">
+        <p class="home__h1">ワーケーションに取り組む<br class="sp-only">
+          自治体・事業者さまへ</p>
+        <p class="home__h2"><span>CO-MITワーケーションで<br class="sp-only">取り組みをPRしませんか？</span></p>
+        <p class="section__text">CO-MITワーケーションは、企業の研修や合宿に特化したサイト<a href="/" target="_blank">CO-MIT</a>から生まれた企業のためのワーケーション専門のポータルサイトです。<br>
+          そのためワーケーションに興味がある企業の方が訪れます。<br>
+          ご予算に合わせた掲載タイプを無料からご用意しておりますので、まずはお気軽にご相談ください。</p>
+        <div class="button-area"> <a href="/contact/#contact" class="button" target="_blank">詳しく見る</a> </div>
+      </div>
+    </section>
+    <section id="post" class="post">
+      <div class="l-wrapper">
+        <p class="home__h1">ワーケーション関連記事</p>
+        <p class="section__text"> ワーケーションに関するアレコレが知りたい！方へ。<br>
+          ワーケーションの基礎知識から、事例までご紹介しています。 </p>
+        <ul class="post-list">
+          <li> <a href="/column/4a0005/" target="_blank"> <img src="img/kanren_post01.png" alt="">
+            <p class="post__title">経費で落とせる？助成金は？ワーケーションの費用問題を徹底解説</p>
+            <a class="post__more" href="/column/4a0005/" target="_blank">→記事を読む</a> </a> </li>
+          <li> <a href="/column/4a0011/" target="_blank"> <img src="img/kanren_post02.png" alt="">
+            <p class="post__title">【事例紹介】ワーケーションを上手に使っているユニークな企業＆自治体6選</p>
+            <a class="post__more" href="/column/4a0011/" target="_blank">→記事を読む</a> </a> </li>
+          <li> <a href="/column/4a0016/" target="_blank"> <img src="img/kanren_post03.png" alt="">
+            <p class="post__title">ワーケーションを実施するときに必要なモノコト＆事前準備のポイント</p>
+            <a class="post__more" href="/column/4a0016/" target="_blank">→記事を読む</a> </a> </li>
+          <li> <a href="/column/4a0006/" target="_blank"> <img src="img/kanren_post04.png" alt="">
+            <p class="post__title">チームビルディング向上にも！賢いワーケーション場所の選び方＆確認事項リスト</p>
+            <a class="post__more" href="/column/4a0006/" target="_blank">→記事を読む</a> </a> </li>
+          <li> <a href="/column/4a0015/" target="_blank"> <img src="img/kanren_post05.png" alt="">
+            <p class="post__title">【事例紹介】ワーケーションで生産性が20％アップ!?効果最大のポイントは</p>
+            <a class="post__more" href="/column/4a0015/" target="_blank">→記事を読む</a> </a> </li>
+          <li> <a href="/column/4a0008/" target="_blank"> <img src="img/kanren_post06.png" alt="">
+            <p class="post__title">ワーケーションの期間は何日が適切？期間別導入アイデア＆おすすめスポット</p>
+            <a class="post__more" href="/column/4a0008/" target="_blank">→記事を読む</a> </a> </li>
+        </ul>
+        <div class="button-area"> <a href="/tag_column/workation/" class="button" target="_blank">記事をもっと見る</a> </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="l-wrapper">
+        <p class="home__h1">お知らせ</p>
+        <ul class="news-list">
+			<li>
+            <p class="news-list__date">2023.06.21</p>
+            <p class="news-list__text">石川県七尾市のプログラム「<a href="recommend/wakuraonsen/" style="text-decoration: underline;">里山里海の世界農業遺産に認定された能登半島和倉温泉で「幸せ」をデザインする企業研修ワーケーション</a>」を公開しました。</p></p>
+          </li>
+			<li>
+            <p class="news-list__date">2023.02.28</p>
+            <p class="news-list__text">おすすめワーケーションプログラムにプログラムを追加しました。</p>
+          </li>
+          <li>
+            <p class="news-list__date">2022.11.19</p>
+            <p class="news-list__text">北海道新聞に美唄市モニターツアーが取り上げられました。<a href="https://www.hokkaido-np.co.jp/article/762662/" style="text-decoration: underline;">＞詳細はこちら</a></p>
+          </li>
+          <li>
+            <p class="news-list__date">2022.10.12</p>
+            <p class="news-list__text">福岡県田川市のプログラム「<a href="recommend/tagawa/" style="text-decoration: underline;">田川市 地域課題解決型 企業ワーケーションプログラム</a>」を公開しました。</p>
+          </li>
+          <li>
+            <p class="news-list__date">2022.09.22</p>
+            <p class="news-list__text">北海道美唄市のプログラム「<a href="recommend/bibai/" style="text-decoration: underline;">旧産炭地が生んだ「ホワイトデータセンター（WDC）構想」に学ぶビジネスイノベーションツアー</a>」を公開しました。</p>
+          </li>
+          <li>
+            <p class="news-list__date">2022.09.09</p>
+            <p class="news-list__text">企業のためのワーケーションポータルを公開しました。<br>
+              おすすめワーケーションプログラムは随時更新を予定しております。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="interview">
+      <div class="l-wrapper">
+        <h2 class="home__h1">専門家インタビュー</h2>
+        <div class="intro-text">
+          <p>オフサイト研修に関する専門家へのインタビューを掲載しております。</p>
+        </div>
+        <div class="coming-soon coming-soon--interview"> <span><img src="img/txt_coming-soon.svg" alt="coming soon"></span> </div>
+      </div>
+    </div>
+    <div class="cv-area">
+      <div class="l-wrapper cv-area__wrapper">
+        <h2 class="cv-area__heading">専門家相談サービス</h2>
+        <div class="cv-area__text">
+          <p>ご担当者さまらの負担を軽減し、本来の業務に専念できるよう、専門家に相談できるサービスもございます。<br class="pc-only">
+            目的やご要望を伺い、施設のご提案から宿泊、研修会議まで手配いたしますので、お気軽にご相談ください。</p>
+        </div>
+        <div class="cv-area__button">
+          <div class="button-3"> <a href="/consult/">専門家に相談する</a> </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="l-footer"> <a href="#" class="pagetop">PAGE TOP</a>
+    <div class="footer">
+      <p class="footer-logo"><a href="/" class="footer-logo__image"><img src="img/logo_white.png" alt="CO-MIT"></a><span><a href="/">研修・合宿施設検索サイト | CO-MIT(コミット)</a></span></p>
+      <ul class="footer-navi">
+        <li class="footer-navi__item"><a href="/beginner/">初めての方はこちら</a></li>
+        <li class="footer-navi__item"><a href="/about/">CO-MITの強み</a></li>
+        <li class="footer-navi__item"><a href="/facility/">施設を探す</a></li>
+        <li class="footer-navi__item"><a href="/consult/">専門家に相談する</a></li>
+        <li class="footer-navi__item"><a href="/workation-portal/">ワーケーションポータル</a></li>
+        <li class="footer-navi__item"><a href="/offsite/">オフサイト研修のススメ</a></li>
+        <li class="footer-navi__item"><a href="/circulareconomy/">サーキュラーエコノミーを知る</a></li>
+      </ul>
+      <ul class="footer-navi">
+        <li class="footer-navi__item"><a href="/column/">研修ノウハウ・コラム</a></li>
+        <li class="footer-navi__item"><a href="/events/">イベントに参加する</a></li>
+        <li class="footer-navi__item"><a href="/contact/">掲載に関するお問い合わせ</a></li>
+        <li class="footer-navi__item"><a href="/faq/">よくある質問</a></li>
+        <li class="footer-navi__item"><a href="/agreement/">利用規約</a></li>
+        <li class="footer-navi__item"><a href="/disclaimer/">免責事項</a></li>
+        <li class="footer-navi__item"><a href="https://asno-sys.co.jp/privacy/" target="_blank">個人情報保護方針</a></li>
+        <li class="footer-navi__item"><a href="https://asno-sys.co.jp/" target="_blank">運営会社</a></li>
+      </ul>
+      <div class="l-wrapper">
+        <ul class="banners">
+          <li class="banners__item"><a href="https://www.kaigishitu.com/" target="_blank"><img src="offsite/img/bnr_kaigishitsu.png" alt="会議室.com"></a></li>
+          <li class="banners__item"><a href="https://www.kaigishitu.com/meeting-hacks/" target="_blank"><img src="offsite/img/bnr_kaigihack.png" alt="会議HACK"></a></li>
+          <li class="banners__item"><a href="https://www.rental-o.com/" target="_blank"><img src="offsite/img/bnr_rentaloffice.png" alt="レンタルオフィス.com"></a></li>
+          <li class="banners__item"><a href="https://hospitality-agent.co.jp/" target="_blank"><img src="offsite/img/bnr_ha.png" alt="hospitality agent"></a></li>
+        </ul>
+        <ul class="sns">
+          <li class="sns__item"><a href="https://www.facebook.com/kensyu.comit/" target="_blank"><img src="offsite/img/icon_facebook.png" alt="facebook"><span>「CO-MIT」Facebook公式アカウント</span></a></li>
+          <li class="sns__item sns__icon-youtube"><a href="https://www.youtube.com/channel/UChVGwQOstm2VFPvBZVng8VA" target="_blank"><img src="offsite/img/icon_youtube.jpg" alt="youtube"><span>「CO-MIT」YouTube公式アカウント</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Copyright (C) ASNO SYSTEM All Rights Reserved.</p>
+  </footer>
+</div>
+<script src="/workation-portal/js/jquery.min.js"></script> 
+<script src="/workation-portal/js/ofi.min.js"></script> 
+<script src="/workation-portal/js/swiper.min.js"></script> 
+<script src="/workation-portal/js/jquery.tile.min.js"></script> 
+<script src="/workation-portal/js/common.js"></script>
+</body>
+</html>

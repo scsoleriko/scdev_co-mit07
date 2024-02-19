@@ -1,0 +1,195 @@
+$(function() {
+
+	/* スムーズスクロール
+	******************************************/
+  $('a[href^="#"]').click(function() {
+    let speed = 600;
+    let type = 'swing';
+    let href= $(this).attr("href");
+    let target = $(href == "#index" ? 'html' : href);
+    let position = target.offset().top;
+    $('body,html').animate({scrollTop:position}, speed, type);
+    return false;
+  });
+
+	/* ファーストビュー
+	******************************************/
+	const fvswiper = new Swiper('.fv-swiper', {
+		loop: false,
+		autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		},
+		effect: 'fade',
+	});
+
+	if ( window.matchMedia('(max-width: 768px)').matches ) {
+		const foodSwiper = new Swiper(".food-swiper", {
+			slidesPerView: "auto",
+			centeredSlides: true,
+			spaceBetween: 15,
+		});
+	}
+
+	/* お申込み追従ボタン
+	******************************************/
+	var formBtn = $('#fixed-form');
+	var formBtn_hiddenPoint = $('#form').offset().top - ( $('#form').height() / 2 );
+
+	$(window).on('scroll', function() {
+		if ($(this).scrollTop() > formBtn_hiddenPoint) {
+			formBtn.fadeOut();
+		} else {
+			formBtn.fadeIn();
+		}
+	});
+
+
+	/* 呉市の魅力
+	******************************************/
+	$('.appeal-nav li, .appeal-nav2 li').click(function(){
+		let area = '#' + $(this).data('area');
+		let index = area.slice(-1);
+	
+		$('.appeal-nav li').removeClass('current');
+		$('.appeal-areaWrap').removeClass('current');
+
+		$('.appeal-nav li:nth-child(' + index + ')').addClass('current');
+		$(area).addClass('current');
+	});
+
+	/* モニターツアー
+	******************************************/
+	$('#tour .more button').click(function(){
+		$('#tour .tour-more').show();
+		$('#tour .more').hide();
+	});
+
+	$('#tour .close button').click(function(){
+		$('#tour .tour-more').hide();
+		$('#tour .more').show();
+	});
+
+	/* modal
+	******************************************/
+	$('.modal-close').click(function(){
+		$('.modal').modaal('close');
+	});
+
+
+	/* ワークスペース
+	******************************************/
+
+	var workspaceSwiper = new Swiper('.workspace-swiper', {
+		loop: false,
+		autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+
+	//シーサイド桂ケ浜荘
+	$('.modal-katsuragahamaso').modaal({
+		//content_source: '#katsuragahamaso',
+		//custom_class: 'workspace-modal',
+		type: 'iframe',
+		width: 1000,
+		custom_class: 'workspace-modal',
+	});
+
+
+	const swiperThumbKatsuragahamaso = new Swiper(".modal-swiperThumb_katsuragahamaso", {
+		spaceBetween: 8,
+		slidesPerView: 7,
+		freeMode: true,
+		watchSlidesProgress: true,
+	});
+
+	const swiperKatsuragahamaso = new Swiper(".modal-swiper_katsuragahamaso", {
+		spaceBetween: 0,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		thumbs: {
+			swiper: swiperThumbKatsuragahamaso,
+		},
+	});
+
+	//呉森沢ホテル
+	$('.modal-morisawa').modaal({
+		content_source: '#morisawa',
+		custom_class: 'workspace-modal',
+	});
+
+	const workspaceSwiperMorisawa = new Swiper('.workspace-swiper_morisawa', {
+		loop: false,
+		autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+
+	const swiperThumbMorisawa = new Swiper(".modal-swiperThumb_morisawa", {
+		spaceBetween: 8,
+		slidesPerView: 7,
+		freeMode: true,
+		watchSlidesProgress: true,
+	});
+
+	const swiperMorisama = new Swiper(".modal-swiper_morisawa", {
+		spaceBetween: 0,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		thumbs: {
+			swiper: swiperThumbMorisawa,
+		},
+	});
+
+	//コワーキングスペース・梶ヶ浜
+	$('.modal-kajigahama').modaal({
+		content_source: '#kajigahama',
+		custom_class: 'workspace-modal',
+	});
+
+	const workspaceSwiperKajigahama = new Swiper('.workspace-swiper_kajigahama', {
+		loop: false,
+		autoplay: {
+			delay: 2500,
+			disableOnInteraction: false,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+
+	const swiperThumbKajigahama = new Swiper(".modal-swiperThumb_kajigahama", {
+		spaceBetween: 8,
+		slidesPerView: 7,
+		freeMode: true,
+		watchSlidesProgress: true,
+	});
+
+	const swiperKajigahama = new Swiper(".modal-swiper_kajigahama", {
+		spaceBetween: 0,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		thumbs: {
+			swiper: swiperThumbKajigahama,
+		},
+	});
+
+});

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../../co-mit_renew_201910/fonts/icomoon.eot?vjh3z5");
+  src: url("../../co-mit_renew_201910/fonts/icomoon.eot?vjh3z5#iefix") format("embedded-opentype"), url("../../co-mit_renew_201910/fonts/icomoon.ttf?vjh3z5") format("truetype"), url("../../co-mit_renew_201910/fonts/icomoon.woff?vjh3z5") format("woff"), url("../../co-mit_renew_201910/fonts/icomoon.svg?vjh3z5#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 769px) {
+  #new-inquiry_thanks main .inner {
+    width: 1000px;
+  }
+  #new-inquiry_thanks main .common-content {
+    padding: 75px 0;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #new-inquiry_thanks main .inner {
+    width: auto;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #new-inquiry_thanks main .common-content {
+    padding: 35px 0;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+}

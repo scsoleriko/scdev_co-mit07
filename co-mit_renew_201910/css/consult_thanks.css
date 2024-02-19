@@ -1,0 +1,26 @@
+@media screen and (min-width: 769px) {
+  #new-consult_thanks main .inner {
+    width: 1000px;
+  }
+  #new-consult_thanks main .common-content {
+    padding: 75px 0;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #new-consult_thanks main .inner {
+    width: auto;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #new-consult_thanks main .common-content {
+    padding: 35px 0;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+}

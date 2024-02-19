@@ -1,0 +1,466 @@
+.contact-table .error {
+	background: #ffe4e1;
+}
+
+.contact-table .error_disp {
+	display: block;
+	color: #cc0000;
+	font-weight: bold;
+}
+
+.about-hospitality-agent2 {
+	background: #fff;
+	padding: 40px 40px 20px 40px;
+	margin-bottom: 40px;
+	-js-display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-moz-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.about-hospitality-agent-text2 {
+	text-align: center;
+	width: 1000px;
+}
+
+.about-hospitality-agent-text2 h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.about-hospitality-agent-text2 img {
+	width: 30%;
+	margin: 30px;
+}
+
+.facility-detail .detail-name-area .detail-name-description h1 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.1;
+	margin-bottom: 15px;
+}
+
+h2.notfound-section-title {
+	text-align: center;
+	font-size: -webkit-xxx-large;
+	font-weight: bold;
+	color: #00B2B0;
+}
+
+p.notfound-section-text {
+	text-align: center;
+	margin: 30px 0;
+	font-size: 14px;
+}
+
+span.notfound-section-catch {
+	font-size: x-large;
+	color: #3E3A39;
+	font-weight: bold;
+}
+
+.agreement-box {
+	margin-bottom: 70px;
+}
+
+.agreement-box .desclaimer-title {
+	font-size: 20px;
+	border-bottom: 2px solid #3E3A39;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.agreement-box p {
+	margin-bottom: 20px;
+}
+
+.agreement-box ul {
+	margin-bottom: 20px;
+}
+
+.agreement-box ul li {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+.topics-content {
+	padding: 50px 0 50px;
+}
+
+.topics-catch {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	line-height: 2;
+	font-weight: bold;
+}
+
+.topics-text {
+	font-size: 14px;
+	font-weight: bold;
+	background: #fff;
+	padding: 5px 10px 10px 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.topics-text li {
+	padding-top: 5px;
+}
+
+.topics-text li dd {
+	font-size: 12px;
+}
+
+table.detail-basic-table {
+	width: 100%;
+}
+
+.area-search-lists dt a:link,
+.area-search-lists dt a:visited {
+	text-decoration: none;
+}
+
+.area-search-lists dt a:hover {
+	text-decoration: underline;
+}
+
+/* 掲載ボタン非表示 */
+
+.header-top-btn,
+.sp-contact-btn {
+	display: none !important;
+}
+
+/* エリア絞り込みチェックボックス */
+
+/* タグ絞り込みチェックボックス */
+
+/* エリアリスト float調整 */
+
+.area-search-box {
+	display: inherit !important;
+}
+
+dl.area-search-lists {
+	width: 100% !important;
+	margin-top: 5px;
+}
+
+/* 絞り込み検索 */
+
+/* 一覧アイコン */
+
+img.icon360 {
+	width: auto;
+	position: absolute;
+	z-index: 10;
+	left: 5px;
+}
+
+.facility-list > li a:hover img.icon360 {
+	opacity: 1;
+}
+
+/* 詳細ページ下部タグ一覧 */
+
+.facility-detail .tag-list li {
+	font-size: 14px;
+	border: solid 1px #00B2B0;
+}
+
+.facility-detail .tag-list li a {
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+
+.facility-detail .tag-list li a:hover {
+	opacity: 0.8;
+}
+
+/* 施設一覧 タグ出力 */
+
+article.facility-content div.tag-list {
+	margin-bottom: 10px;
+}
+
+article.facility-content div.tag-list ul {
+	margin: 0 0 0 -5px;
+}
+
+article.facility-content div.tag-list ul li {
+	margin: 0 5px 5px;
+	letter-spacing: normal;
+	display: inline-block;
+	border: solid 1px #00B2B0;
+	font-size: 12px;
+	background: #ffffff;
+}
+
+article.facility-content div.tag-list ul li a {
+	display: block;
+	padding: 2px 5px;
+	background: #fff;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+
+article.facility-content div.tag-list ul li a:before {
+	content: "#";
+}
+
+article.facility-content div.tag-list ul li a:hover {
+	opacity: 0.8;
+}
+
+/* 会場一覧 会ドリンク追加 */
+
+.facility-list > li { /*border-top: 2px solid #00B2B0;*/
+}
+
+.facility-detail .place-info-data > li {
+	border-bottom: 0 !important; /*border-top: 2px solid #00B2B0;*/
+}
+
+.place-info-detail .facility-more {
+	margin: 0;
+}
+
+.place-info-detail .facility-more i {
+	font-size: 13px;
+}
+
+/* icommon font */
+
+/* 施設ページ 詳細タブ吸着 */
+.sticky {
+	overflow: visible;
+	position: relative;
+}
+
+.detail-tabs-outer {
+	background: #ffffff;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+}
+
+.facility-detail .detail-tabs ul li a {
+	position: relative;
+	height: 57px;
+	box-sizing: content-box;
+}
+
+.detail-tabs-outer .detail-tabs ul li a i {
+	position: absolute;
+	transition: all 0.3s 0.2s;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 1;
+}
+
+.detail-tabs-outer .detail-tabs ul li a i.icon-detail_under {
+	left: 10px;
+	right: auto;
+	top: 26%;
+	opacity: 0;
+	transition: all 0.3s 0s;
+}
+
+.detail-tabs-outer .detail-tabs ul li a i.icon-detail06.icon-detail_under {
+		top: 30%;
+		left: 2px;
+}
+
+.detail-tabs-outer .detail-tabs ul li a .detail-tab-text {
+	display: block;
+	margin: 30px 0 0;
+	transition: all 0.3s 0s;
+	position: relative;
+	z-index: 1;
+}
+
+/* .fixed付与 */
+.detail-tabs-outer.fixed {
+	transition: left 0.3s 0s;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a {
+	height: auto;
+	padding: 12px 0 14px;
+	border-bottom: 0 solid #E2E2E2;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a i {
+	transition: all 0.3s 0s;
+	opacity: 0;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a .detail-tab-text {
+	margin-top: 0;
+	transition: all 0.3s 0s;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail_under {
+	opacity: 1;
+	left: 20px;
+		transition: all 0.3s 0.2s;
+}
+
+/* .fixed付与：アイコン個別指定 */
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail01.icon-detail_under {
+	top: 22%;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail02.icon-detail_under {
+	top: 27%;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail03.icon-detail_under {
+	top: 23%;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail04.icon-detail_under {
+	top: 30%;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail05.icon-detail_under {
+	left: 15px;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail06.icon-detail_under {
+		top: 26%;
+		left: 10px;
+}
+
+@media screen and (min-width: 769px) and  (max-width: 1160px) {
+.detail-tabs-outer.fixed .detail-tabs ul li a i.icon-detail_under {
+	opacity: 0;
+}
+
+.detail-tabs-outer.fixed .detail-tabs ul li a .detail-tab-text {
+}
+}
+
+@media screen and (min-width: 769px) and  (max-width: 996px) {
+.detail-tabs-outer {
+	width: 980px;
+}
+}
+
+nav.detail-tabs {
+	position: relative;
+	border-bottom: solid 1px #F0F0F0; /*transform: translate3d(0, 0, 0);*/
+}
+
+nav.detail-tabs div.inner {
+	/*position: absolute;
+	top: 0;
+	left: 50%;*/
+	width: 100%;
+	max-width: 1240px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+nav.detail-tabs.is_fix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	background: #ffffff;
+}
+
+nav.detail-tabs.is_fix div.inner {
+	position: relative;
+	top: auto;
+	left: 50%;
+	text-align: center;
+}
+
+.header-top-text {
+	font-size: 11px;
+}
+
+.facility-detail .staying-type-table tbody th {
+	background: #f7f7f7;
+}
+
+.access-map {
+	min-height: 200px;
+	background: url("../img/ajax-loader.gif") center center no-repeat;
+}
+
+.facility-detail .staying-photo-list li .photo-zoom {
+	display: block;
+}
+
+.section.section.detail-contact {
+	padding: 40px 0 0 0;
+}
+
+.facility-detail .detail-contact-row {
+	background: #ffffff;
+}
+
+/* 一覧無限ループ化 */
+
+.list-loading {
+	height: 200px;
+	background: url("../img/ajax-loader.gif") center center no-repeat;
+}
+
+a.facility-list-end:link,
+a.facility-list-end:visited {
+	background: #595757;
+	background: -webkit-gradient(linear, left top, right top, from(#595757), color-stop(25%, #595757), color-stop(63%, #595757), to(#595757));
+	background: -webkit-linear-gradient(left, #595757 0%, #595757 25%, #595757 63%, #595757 100%);
+	background: -o-linear-gradient(left, #595757 0%, #595757 25%, #595757 63%, #595757 100%);
+	background: linear-gradient(to right, #595757 0%, #595757 25%, #595757 63%, #595757 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$gradient1, endColorstr=$gradient4,GradientType=1 );
+	color: #fff;
+	opacity: 0.8;
+}
+
+.common-content {
+	padding: 25px 0 25px;
+}
+
+.section-title-area {
+	margin-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+
+body,
+#layout {
+	overflow-x: visible;
+}
+
+.detail-tabs-outer { /* sp */
+	top: 50px;
+}
+
+.facility-detail .detail-tabs {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+}
+

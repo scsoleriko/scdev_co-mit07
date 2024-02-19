@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>イベントに参加する｜CO-MIT(コミット)研修・合宿施設 </title>
+<meta name="description" content="オフサイトミーティングや新入社員研修ができる施設を探せる検索サイト「CO-MIT」のイベント紹介ページです。イベント・セミナー情報を見ることができます。">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="../co-mit_renew_201910/css/style.css">
+<link rel="stylesheet" href="../co-mit_renew_201910/css/classic_style.css">
+<link rel="stylesheet" href="../co-mit_renew_201910/css/classic_adjust.css">
+<link rel="stylesheet" href="../co-mit_renew_201910/css/events.css">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://co-mit.jp/">
+<meta property="og:image" content="/co-mit_renew_201910/img/ogp.png">
+<meta property="og:title" content="研修・合宿施設検索サイト「 CO-MIT（コミット）」">
+<meta property="og:description" content="お気に入りの研修・合宿施設が見つかるかも？！CO-MIT（コミット）では新入社員研修やオフサイトミーティング・チームビルディングができる研修施設、ホテル、旅館、公共施設をご紹介。">
+<script src="../co-mit_renew_201910/js/jquery-2.2.4.min.js"></script> 
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K8JCTJV');</script>
+<!-- End Google Tag Manager -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="canonical" href="https://co-mit.jp/facility/xwavemakuhari/" />
+</head>
+<body>
+<div class="l-body">
+<header class="l-header">
+  <div class="l-header__wrapper">
+    <p class="header-logo"><a href="https://co-mit.jp/"><img src="../co-mit_renew_201910/img/logo_color.png" srcset="../co-mit_renew_201910/img/logo_color.png 1x, ../co-mit_renew_201910/img/logo_color@2x.png 2x" alt="研修・合宿施設検索サイト | CO-MIT(コミット)"></a></p>
+		<div class="sp-favorite">
+			<p class="sp-favorite__btn js-favorite-sp-btn"><i class="icon-favorite"></i><span>検討リスト</span></p>
+			<div class="sp-favorite__detail js-favorite-sp-detail">
+			</div>
+		</div>
+    <a href="#" class="sp-menu-btn"><span>メニューを開く</span><span></span><span></span></a>
+    <nav class="navi">
+      <div class="navi__wrapper">
+        <script>
+          var ajaxurl = '../mng/wp-admin/admin-ajax.php';
+        </script>
+        <div class="navi__favorite">
+          <div class="navi__favorite__btn">
+            <a href="https://co-mit.jp/favorite/"><i class="icon-favorite"></i><span>検討リスト</span></a>
+          </div>
+          <div class="navi__favorite__detail">
+            <div class="navi__favorite__detail__inner">
+            </div>
+          </div>
+        </div>
+        <ul class="navi__main">
+          <li class="navi__main__item"><a href="https://co-mit.jp/facility/">施設を探す</a></li>
+          <li class="navi__main__item"><a href="https://co-mit.jp/events/">専門家に相談する</a></li>
+          <li class="navi__main__item"><a href="https://co-mit.jp/column/">研修ノウハ<span>ウ・</span>コラム</a></li>
+          <li class="navi__main__item"><a href="https://co-mit.jp/beginner/">初めての方はこちら</a></li>
+          <li class="navi__main__item side-only navi__main__item--favorite"><a href="https://co-mit.jp/favorite/"><i class="icon-favorite"></i>検討リスト</a></li>
+        </ul>
+        <div class="navi_wrapper">
+          <ul class="navi__sub">
+            <li class="navi__sub__item"><a href="https://co-mit.jp/agreement/">利用規約</a></li>
+            <li class="navi__sub__item"><a href="https://co-mit.jp/disclaimer/">免責事項</a></li>
+            <li class="navi__sub__item"><a href="https://asno-sys.co.jp/privacy/" target="_blank">個人情報保護方針</a></li>
+            <li class="navi__sub__item"><a href="https://asno-sys.co.jp/" target="_blank">運営会社</a></li>
+          </ul>
+          <ul class="navi__sns">
+            <li class="navi__sns__item"><a href="https://www.facebook.com/kensyu.comit/" target="_blank"><img src="/co-mit_renew_201910/img/icon_facebook.png" alt="facebook"><span>「CO-MIT」Facebook公式アカウント</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- ▼ breadcrumb ▼ -->
+<div class="breadcrumb">
+  <ol class="l-wrapper breadcrumb__wraper">
+    <li class="breadcrumb__item"><a href="https://co-mit.jp"><span>トップ</span></a></li>
+    <li class="breadcrumb__item"><span>イベントに参加する</span></li>
+  </ol>
+</div>
+<!-- ▲ breadcrumb ▲ -->
+<div id="new-events">
+<main>
+<section class="normal-section common-content" id="events">
+  <div class="section-title-area no-follow">
+    <h2 class="section-title"><span class="section-title-en">EVENTS</span><i class="icon-events"> </i><span class="section-title-ja">イベントに参加する</span></h2>
+  </div>
+</section>
+<div class="common-content bg-gray">
+<div class="inner">
+<section class="events-section events-section-03">
+<h3 class="common-detail-title"><i class="icon-events1"></i>簡単３ステップで申し込み完了</h3>
+<div class="blocks-01 case-column3-block case-column3-block_light-green">
+  <div class="case-column3-block__item">
+    <p class="case-num">STEP1<br>希望のイベントを選択</p>
+    <p class="sentence">下記のイベント一覧よりご希望のイベントを選択し、詳細をご確認ください。<br>※EventRegistの<a href="https://eventregist.com/p/co-mit" target="_blank">CO-MITイベント詳細</a>[外部サイト]のページへ移動します。
+概要を確認し、お申込みボタンをクリックします。
+</p>
+  </div>
+  <div class="sankaku"> </div>
+  <div class="case-column3-block__item">
+    <p class="case-num">STEP２<br>EventRegistへログイン</p>
+    <p class="sentence">EventRegistのログイン画面にてログインしてください。 ※会員登録されていない方は会員登録する必要があります。
+また、<a href="https://eventregist.com/p/co-mit" target="_blank">主催者ページ</a>をフォローしていただくと今後お知らせが届きます。ご活用ください。
+</p>
+  </div>
+  <div class="sankaku"> </div>
+  <div class="case-column3-block__item">
+    <p class="case-num">STEP3<br>必要事項を記入し申込み完了</p>
+    <p class="sentence">ログイン後、必要事項をご入力いただき、申込みは完了となります。 ※申し込み完了後の案内メールにて申し込み内容ご確認ください。</p>
+  </div>
+  <div class="sankaku"> </div>
+</div>
+</sction>
+<section class="events-section events-section-01">
+<h3 class="common-detail-title"><i class="icon-events2"></i>説明会</h3>
+<div class="grid">
+    
+	  <div class="card">
+    <figure> <img src="img/webinar_end.jpg" />
+      <figcaption>
+        <h4>【オンデマンド配信】ご掲載検討施設向け 説明会</h4>
+        <p>ウェビナー動画をお申し込みいただいた方限定に配信いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_webinar_ond01" target="_blank" class="cardlink">
+    <p class="day">※お申し込み者限定</p>
+    <p class="title">【オンデマンド配信】CO-MIT ご掲載検討施設向け 説明会</p>
+    <dl>
+      <dt>期間：</dt>
+      <dd>未定</dd>
+      <dt>場所：</dt>
+      <dd>動画配信</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_webinar_ond01" target="_blank" class="dbtn">詳細はこちら</a> </div>
+	
+
+	  <div class="card">
+    <figure> <img src="img/webinar_end.jpg" />
+      <figcaption>
+        <h4>ご掲載検討施設向け オンライン説明会のご案内</h4>
+        <p>WEB会議サービスツール「ZOOM」を利用したオンライン開催での実施をいたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_2004webinar" target="_blank" class="cardlink">
+    <p class="day">2020年4月17日(金)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け オンライン説明会</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～14:30(受付12:50)</dd>
+      <dt>場所：</dt>
+      <dd>オンライン（ウェビナー）での開催</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_2004webinar" target="_blank" class="dbtn">詳細はこちら</a> </div>
+	
+  <div class="card">
+    <figure> <img src="img/tokyo_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（東京）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_2003tokyo" target="_blank" class="cardlink">
+    <p class="day">2020年3月24日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in東京</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 東京オフィス内</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_2003tokyo" target="_blank" class="dbtn">詳細はこちら</a> </div>
+    
+  <div class="card">
+    <figure> <img src="img/oosaka_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（大阪）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_2003osaka" target="_blank" class="cardlink">
+    <p class="day">2020年03月10日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in大阪</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 大阪オフィス内</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_2003osaka" target="_blank" class="dbtn">詳細はこちら</a> </div>
+    
+    
+  <div class="card">
+    <figure> <img src="img/tokyo_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（東京）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_2002tokyo" target="_blank" class="cardlink">
+    <p class="day">2020年2月21日(金)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in東京</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 東京オフィス内</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_2002tokyo" target="_blank" class="dbtn">詳細はこちら</a> </div>    
+    
+  <div class="card">
+    <figure> <img src="img/tokyo_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（東京）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_2001tokyo" target="_blank" class="cardlink">
+    <p class="day">2020年1月29日(水)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in東京</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 東京オフィス内</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_2001tokyo" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="img/fukuoka_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（福岡）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_2001fukuoka" target="_blank" class="cardlink">
+    <p class="day">2020年1月21日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in福岡</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>リファレンス駅東ビル貸会議室</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_2001fukuoka" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="img/tokyo_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（東京）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_1912tokyo" target="_blank" class="cardlink">
+    <p class="day">2019年12月4日(水)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in東京</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 東京オフィス内</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_1912tokyo" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="img/tokyo_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（東京）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_1912tokyo" target="_blank" class="cardlink">
+    <p class="day">2019年12月3日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in東京</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 東京オフィス内</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_1912tokyo" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="img/oosaka_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（大阪）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_1911osaka" target="_blank" class="cardlink">
+    <p class="day">2019年11月28日(木)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in大阪</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 大阪オフィス内</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_1911osaka" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="img/oosaka_end.jpg" />
+      <figcaption>
+        <h4>掲載検討施設様向け　無料説明会（大阪）開催のご案内</h4>
+        <p>より多くの施設様に本サイトに参画をいただき2020年の企業研修の需要取り込みの一助となるようCO-MITご掲載検討施設様向け説明会を開催いたします。</p>
+      </figcaption>
+    </figure>
+    <a href="https://eventregist.com/e/comit_1911osaka" target="_blank" class="cardlink">
+    <p class="day">2019年11月27日(水)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in大阪</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>アスノシステム株式会社 大阪オフィス内 セミナールーム</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="https://eventregist.com/e/comit_1911osaka" target="_blank" class="dbtn">詳細はこちら</a> </div>
+</div>
+<!-- <div class="motto">もっと</div>-->
+
+</sction>
+<!--
+<section class="events-section events-section-01">
+<h3 class="common-detail-title"><i class="icon-people"></i>セミナー</h3>
+<div class="grid">
+  <div class="card">
+    <figure> <img src="photo1.jpg" />
+      <figcaption>
+        <h4>締切迫る！</h4>
+        <p>企業研修・会議などの集客をたい施設様必見！</p>
+      </figcaption>
+    </figure>
+    <a href="#" target="_blank" class="cardlink">
+    <p class="day">1月21日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in福岡</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>リファレンス駅東ビル貸会議室</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="#" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="photo1.jpg" />
+      <figcaption>
+        <h4>締切迫る！</h4>
+        <p>企業研修・会議などの集客をたい施設様必見！</p>
+      </figcaption>
+    </figure>
+    <a href="#" target="_blank" class="cardlink">
+    <p class="day">1月21日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in福岡</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>リファレンス駅東ビル貸会議室</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="#" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="photo1.jpg" />
+      <figcaption>
+        <h4>締切迫る！</h4>
+        <p>企業研修・会議などの集客をたい施設様必見！</p>
+      </figcaption>
+    </figure>
+    <a href="#" target="_blank" class="cardlink">
+    <p class="day">1月21日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in福岡</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>リファレンス駅東ビル貸会議室</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="#" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="photo1.jpg" />
+      <figcaption>
+        <h4>締切迫る！</h4>
+        <p>企業研修・会議などの集客をたい施設様必見！</p>
+      </figcaption>
+    </figure>
+    <a href="#" target="_blank" class="cardlink">
+    <p class="day">1月21日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in福岡</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>リファレンス駅東ビル貸会議室</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="#" target="_blank" class="dbtn">詳細はこちら</a> </div>
+  <div class="card">
+    <figure> <img src="photo1.jpg" />
+      <figcaption>
+        <h4>締切迫る！</h4>
+        <p>企業研修・会議などの集客をたい施設様必見！</p>
+      </figcaption>
+    </figure>
+    <a href="#" target="_blank" class="cardlink">
+    <p class="day">1月21日(火)</p>
+    <p class="title">CO-MIT ご掲載検討施設向け 説明会 in福岡</p>
+    <dl>
+      <dt>時間：</dt>
+      <dd>13:00～15:00(受付12:30)</dd>
+      <dt>場所：</dt>
+      <dd>リファレンス駅東ビル貸会議室</dd>
+      <dt>費用：</dt>
+      <dd>無料</dd>
+    </dl>
+    </a> <a href="#" target="_blank" class="dbtn">詳細はこちら</a> </div>
+</div>
+</sction>
+-->
+</div>
+</div>
+</main>
+</div>
+
+<!-- ###common footer start### -->
+<footer class="l-footer"> <a href="#" class="pagetop">PAGE TOP</a>
+  <div class="l-wrapper">
+    <div class="consultation">
+      <div class="consultation__image">
+        <img src="/co-mit_renew_201910/img/consultation-bg.jpg" alt="">
+      </div>
+      <div class="consultation__contents">
+        <h2 class="consultation__heading"><i></i>施設探しでお悩みの方は、<br class="sp-only">お気軽にご相談ください</h2>
+        <p class="consultation__text">ご担当者さまの負担を軽減し、本来の業務に専念できるよう、専門家に相談できるサービスもございます。<br class="sp-only">目的やご要望を伺い、施設のご提案から宿泊、研修会場まで手配いたしますので、お気軽にご相談ください。</p>
+        <a href="https://co-mit.jp/consult/" class="button button--lg">専門家に相談する</a>
+      </div>
+    </div>
+    <div class="l-pc-2col">
+      <div class="l-pc-2col__ft-search-area">
+        <p class="heading-3 heading-3--area">エリアから探す</p>
+        <dl class="area-1">
+          <dt class="area-1__head"><a href="/area/hokkaido_tohoku/">北海道・東北エリア</a></dt>
+          <dd class="area-1__content">
+            <ul class="area-1__detail">
+              <li><a href="/area/hokkaido_tohoku/hokkaido/">北海道</a></li>
+              <li><a href="/area/hokkaido_tohoku/iwate/">岩手県</a></li>
+              <li><a href="/area/hokkaido_tohoku/miyagi/">宮城県</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="area-1">
+          <dt class="area-1__head"><a href="/area/hokuriku_koshinetsu/">北陸・甲信越エリア</a></dt>
+          <dd class="area-1__content">
+            <ul class="area-1__detail">
+              <li><a href="/area/hokuriku_koshinetsu/niigata/">新潟県</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="area-1">
+          <dt class="area-1__head"><a href="/area/kanto/">関東エリア</a></dt>
+          <dd class="area-1__content">
+            <ul class="area-1__detail">
+              <li><a href="/area/kanto/tokyo/">東京都</a></li>
+              <li><a href="/area/kanto/kanagawa/">神奈川県</a></li>
+              <li><a href="/area/kanto/chiba/">千葉県</a></li>
+              <li><a href="/area/kanto/saitama/">埼玉県</a></li>
+              <li><a href="/area/kanto/ibaraki/">茨城県</a></li>
+              <li><a href="/area/kanto/tochigi/">栃木県</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="area-1">
+          <dt class="area-1__head"><a href="/area/chubu_tokai/">中部・東海エリア</a></dt>
+          <dd class="area-1__content">
+            <ul class="area-1__detail">
+              <li><a href="/area/chubu_tokai/aichi/">愛知県</a></li>
+              <li><a href="/area/chubu_tokai/shizuoka/">静岡県</a></li>
+              <li><a href="/area/chubu_tokai/nagano/">長野県</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="area-1">
+          <dt class="area-1__head"><a href="/area/kansai/">関西エリア</a></dt>
+          <dd class="area-1__content">
+            <ul class="area-1__detail">
+              <li><a href="/area/kansai/osaka/">大阪府</a></li>
+              <li><a href="/area/kansai/kyoto/">京都府</a></li>
+              <li><a href="/area/kansai/hyogo/">兵庫県</a></li>
+              <li><a href="/area/kansai/shiga/">滋賀県</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="area-1">
+          <dt class="area-1__head"><a href="/area/chugoku_shikoku/">中国・四国エリア</a></dt>
+          <dd class="area-1__content">
+            <ul class="area-1__detail">
+              <li><a href="/area/chugoku_shikoku/hiroshima/">広島県</a></li>
+              <li><a href="/area/chugoku_shikoku/ehime/">愛媛県</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="area-1">
+          <dt class="area-1__head"><a href="/area/kyushu_okinawa/">九州・沖縄エリア</a></dt>
+          <dd class="area-1__content">
+            <ul class="area-1__detail">
+              <li><a href="/area/kyushu_okinawa/fukuoka/">福岡県</a></li>
+              <li><a href="/area/kyushu_okinawa/kumamoto/">熊本県</a></li>
+              <li><a href="/area/kyushu_okinawa/kagoshima/">鹿児島県</a></li>
+              <li><a href="/area/kyushu_okinawa/okinawa/">沖縄県</a></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+      <div class="l-pc-2col__ft-search-purpose">
+        <p class="heading-3 heading-3--purpose">目的から探す</p>
+        <ul class="purpose-1">
+          <li class="purpose-1__item"> <a href="/purpose/concent/">集中できる環境で研修したい</a> <span>新入社員研修・資格取得トレーニング・技術講座</span> </li>
+          <li class="purpose-1__item"> <a href="/purpose/motivate/">モチベーションが上がる環境で研修したい</a> <span>マネジメント研修・コーチング研修・役員研修</span> </li>
+          <li class="purpose-1__item"> <a href="/purpose/environment/">いつもと違った環境で研修したい</a> <span>プロジェクトミーティング・ビジョンメイキング合宿・開発合宿</span> </li>
+          <li class="purpose-1__item"> <a href="/purpose/incentive/">インセンティブ旅行を兼ねて研修したい</a> <span>オフサイトミーティング・チームビルディング・ワーケーション　など</span> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p class="footer-logo"><a href="/" class="footer-logo__image"><img src="../co-mit_renew_201910/img/logo_white.png" srcset="../co-mit_renew_201910/img/logo_white.png 1x, ../co-mit_renew_201910/img/logo_white@2x.png 2x" alt="CO-MIT"></a><span><a href="/">研修・合宿施設検索サイト | CO-MIT(コミット)</a></span></p>
+		<ul class="footer-navi">
+			<li class="footer-navi__item"><a href="/beginner/">初めての方はこちら</a></li>
+			<li class="footer-navi__item"><a href="/about/">CO-MITの強み</a></li>
+			<li class="footer-navi__item"><a href="/facility/">施設を探す</a></li>
+			<li class="footer-navi__item"><a href="/consult/">専門家に相談する</a></li>
+			<li class="footer-navi__item"><a href="/workation-portal/">ワーケーションポータル</a></li>
+			<li class="footer-navi__item"><a href="/offsite/">オフサイト研修のススメ</a></li>
+			<li class="footer-navi__item"><a href="/circulareconomy/">サーキュラーエコノミーを知る</a></li>
+		</ul>
+		<ul class="footer-navi">
+			<li class="footer-navi__item"><a href="/column/">研修ノウハウ・コラム</a></li>
+			<li class="footer-navi__item"><a href="/events/">イベントに参加する</a></li>
+			<li class="footer-navi__item"><a href="/contact/">掲載に関するお問い合わせ</a></li>
+			<li class="footer-navi__item"><a href="/faq/">よくある質問</a></li>
+			<li class="footer-navi__item"><a href="/agreement/">利用規約</a></li>
+			<li class="footer-navi__item"><a href="/disclaimer/">免責事項</a></li>
+			<li class="footer-navi__item"><a href="https://asno-sys.co.jp/privacy/" target="_blank">個人情報保護方針</a></li>
+			<li class="footer-navi__item"><a href="https://asno-sys.co.jp/" target="_blank">運営会社</a></li>
+		</ul>
+    <div class="l-wrapper">
+      <ul class="banners">
+        <li class="banners__item"><a href="https://www.kaigishitu.com/" target="_blank"><img src="../co-mit_renew_201910/img/bnr_kaigishitsu.png" alt="会議室.com"></a></li>
+        <li class="banners__item"><a href="https://www.kaigishitu.com/meeting-hacks/" target="_blank"><img src="../co-mit_renew_201910/img/bnr_kaigihack.png" alt="会議HACK"></a></li>
+        <li class="banners__item"><a href="https://www.rental-o.com/" target="_blank"><img src="../co-mit_renew_201910/img/bnr_rentaloffice.png" alt="レンタルオフィス.com"></a></li>
+        <li class="banners__item"><a href="https://hospitality-agent.co.jp/" target="_blank"><img src="../co-mit_renew_201910/img/bnr_ha.png" alt="hospitality agent"></a></li>
+      </ul>
+      <ul class="sns">
+        <li class="sns__item"><a href="https://www.facebook.com/kensyu.comit/" target="_blank"><img src="/co-mit_renew_201910/img/icon_facebook.png" alt="facebook"><span>「CO-MIT」Facebook公式アカウント</span></a></li>
+
+        <li class="sns__item sns__icon-youtube"><a href="https://www.youtube.com/channel/UChVGwQOstm2VFPvBZVng8VA" target="_blank"><img src="/co-mit_renew_201910/img/icon_youtube.jpg" alt="youtube"><span>「CO-MIT」YouTube公式アカウント</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="copyright">Copyright (C) ASNO SYSTEM All Rights Reserved.</p>
+</footer>
+</div>
+<script src="../co-mit_renew_201910/js/swiper.min.js"></script> 
+<script src="../co-mit_renew_201910/js/ofi.min.js"></script> 
+<script src="../co-mit_renew_201910/js/jquery.fancybox.min.js"></script> 
+<script type="text/javascript">
+  $(function() {
+    // accordion
+      $('[data-accordion-open]').on('click', function(){
+        $(this).parents('.btn-area').fadeOut('fast');
+        $('[data-accordion]').slideDown('fast');
+      });
+    // accordion02
+      $('[data-accordion02-open]').on('click', function(){
+        $('.js-line-hidden').css('border-bottom','none');
+        $(this).parents('.btn-area').fadeOut('fast');
+        $('[data-accordion02]').slideDown('fast');
+      });
+    // accordion03
+      $('[data-accordion03-open]').on('click', function(){
+        $('.js-line-hidden tr:last-child th, .js-line-hidden tr:last-child td').css('border-bottom','1px solid #D6D7D7');
+        $(this).parents('.btn-area').fadeOut('fast');
+        $('[data-accordion03]').slideDown('fast');
+      });
+    });
+</script> 
+<script src="../co-mit_renew_201910/js/common.js"></script>
+</body>
+</html>

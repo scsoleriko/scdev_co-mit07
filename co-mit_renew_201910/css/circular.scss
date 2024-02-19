@@ -1,0 +1,914 @@
+@import url('reset.css');
+
+$base-color : #008faf;
+$black-color: #2f2f2f;
+$gray-color : #f8f8f7;
+
+@function font($minsize,$maxsize) {
+  /*
+  font-size: calc([font最小 px] + ([font最大] - [font最小]) * ((100vw - [最小画面幅]) / ([最大画面幅] - [最小画面幅])));
+  */
+  $minsize-px: $minsize + px;
+  @return calc( ($minsize-px) + ($maxsize - $minsize) * ((100vw - 320px) / 1600))
+}
+
+@mixin mincho {
+  font-family: yu-mincho-pr6n, sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin shadow {
+  text-shadow: 2px 2px 7px rgb(0, 0, 0, .3);
+}
+
+@media screen and (min-width: 769px) {
+  .l-body {
+    padding-top: 0;
+  }
+  
+}
+
+.post-list-1__image.new::after {
+  content: "NEW";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-content: center;
+  width: 80px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  background: #ff6600;
+}
+
+.circular-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  
+  &__place,
+  &__text {
+    display: grid;
+    place-content: center;
+    padding: 0 7px;
+    height: 25px;
+  }
+  &__place {
+    background: $base-color;
+    color: #fff;
+  }
+  &__text {
+    background: #fff67f;
+    border: 1px solid #2f2f2f;
+  }
+}
+
+.seminar-date {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: $base-color;
+}
+
+.pagination {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 13px;
+  a {
+    display: block;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    text-align: center;
+    background: #ccc;
+    transition: .3s;
+    &.current,
+    &:hover {
+      background: #00b2b0;
+      color: #fff;
+    }
+  }
+}
+
+.circular-fv,
+.about-fv {
+  position: relative;
+  .fv-img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
+.circular-fv {
+  height: 515px;
+  .l-wrapper {
+    padding-top: 30px;
+  }
+
+  h1,h2 {
+    font-size: font(18, 24);
+    @include mincho;
+    line-height: 2;
+    color: #fff;
+    @include shadow;
+  }
+
+  h1 {
+    margin-top: 60px;
+  }
+  h2 {
+    margin-top: 15px;
+    strong {
+      font-size: 1.25em;
+    }
+  }
+}
+
+.about-fv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  text-align: center;
+  color: #fff;
+  font-size: font(22, 30);
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px){
+  .about-fv {
+    height: 100px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.wrap {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 1280px;
+  max-width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 64px;
+}
+.circular-fv{
+  .notice{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1280px;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    color:#fff;
+    font-size: 12px;
+    a{
+      text-decoration: underline;
+    }
+  }
+}
+.businessworkcation {
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+  padding: 8px 8px 8px 12px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: font(16, 24);
+  line-height: 1.25;
+  &.black {
+    background-image: linear-gradient(90deg, #0091af, #06c5b1);
+    .box {
+      background: $black-color;
+    }
+  }
+  .box {
+    padding: 8px;
+    border: 1px solid #fff;
+    line-height: 1;
+    font-size: 1.66em;
+    background-image: linear-gradient(90deg, #0091af, #06c5b1);
+    @include mincho;
+  }
+  p:not(.box) {
+    letter-spacing: .1em;
+    @include shadow;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .circular-fv {
+    height: 440px;
+    .fv-img img {
+      object-position: right;
+      height: calc(100% - 45px);
+    }
+    h1 {
+      margin-top: 45px;
+    }
+    .logo {
+      display: none;
+    }
+    .notice{
+      background:#f7f7f7;
+      bottom: 0;
+      padding: 10px 20px;
+      color:#008faf;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+  }
+
+  .wrap {
+    bottom: 80px;
+  }
+}
+
+
+/* ヘッダーナビ */
+.circular-header {
+  &.circular-top {
+    position: absolute;
+    top: 515px;
+    width: 100%;
+    z-index: 99;
+  }
+  .lower-head {
+    .l-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 0;
+    }
+  }
+  .circular-nav-wrap {
+    background: #f7f7f7;
+  }
+  .circular-nav {
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    font-size: 16px;
+    li {
+      position: relative;
+      color: $base-color;
+      font-size: 1.8rem;
+      font-weight: bold;
+      a {
+        display: block;
+        padding: 0 25px;
+        border-right: 1px solid #a5cbd7;
+        &:hover {
+          opacity: .8;
+          transition: .3s;
+        }
+      }
+      &:last-child {
+        border-right: none;
+      }
+      &.comingsoon {
+        a {
+          pointer-events: none;
+          color: #c8c8c8;
+          padding: 0 50px;
+        }
+        p {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-top: 5px;
+          color: #a2a2a2;
+          font-weight: normal;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+
+.sp-menu__logo {
+  display: none;
+}
+
+.sp-circular__btn {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 100;
+  border: none;
+  background: none;
+  span {
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    border-radius: 2px;
+    background: #929292;
+    width: 20px;
+    &:nth-of-type(1) {
+      top: 10px;
+    }
+    &:nth-of-type(2) {
+      top: 18px;
+    }
+    &:nth-of-type(3) {
+      top: 26px;
+    }
+  }
+  &.open span:nth-of-type(1) {
+    background: #fff;
+    top: 15px;
+    transform: translateY(6px) translateX(-50%) rotate(45deg);
+  }
+  &.open span:nth-of-type(2) {
+    opacity: 0;
+  }
+  &.open span:nth-of-type(3) {
+    background: #fff;
+    top: 27px;
+    transform: translateY(-6px) translateX(-50%) rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sp-menu__logo {
+    display: block;
+    width: 150px;
+  }
+  .circular-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &.circular-top {
+      position: fixed;
+      top: 0;
+    }
+
+    .lower-head {
+      display: none;
+    }
+
+    .l-wrapper {
+      display: none;
+      &.open {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        .circular-nav {
+          display: block;
+          padding: 70px 30px 20px;
+          width: 100%;
+          height: 100vh;
+          text-align: center;
+          background: linear-gradient(to right, #008FAF 0, #0196AF 25%, #03A9B0 63%, #07C8B1 100%);
+          li {
+            padding: 22px 0;
+            color: #fff;
+            a {
+              padding: 0;
+              border: none;
+            }
+            &.comingsoon {
+              p {
+                position: static;
+                transform: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sp-circular__btn {
+    display: block;
+  }
+}
+
+.mb35 {
+  margin-bottom: 35px;
+}
+
+.heading-4 {
+  position: relative;
+  display: flex;
+  align-items: center ;
+  gap: 30px;
+  font-size: font(18, 24);
+  font-weight: bold;
+  &::after {
+    border-top: 1px solid #e5e5e5;
+    content: "";
+    flex: 1;
+  }
+}
+
+.sub-text {
+  margin-bottom: 40px;
+  word-break: break-all;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading-4 {
+    padding-bottom: 15px;
+    margin-bottom: 0!important;
+  }
+  .sub-text {
+    margin-bottom: 20px;
+  }
+}
+
+/* offsite/style.css より流用 */
+
+.workation{
+  padding: 60px 0;
+  background: url("/co-mit_renew_201910/img/circulareconomy/workation_bg.png") no-repeat;
+  background-size: cover;
+  margin: 60px 0 0;
+  background-position: center;
+}
+.workation .l-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #fff;
+}
+.workation .workation__text{
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 1.8;
+}
+.workation__hoverbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 62px;
+  overflow: hidden
+}
+a.workation__link{
+  position: relative;
+}
+a.workation__link img{
+  display: block;
+}
+@media screen and (min-width: 769px) {
+  .workation__hoverbox::before{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: block;
+    content: '';
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%);
+    transform: skewX(-25deg);
+    z-index: 1;
+    transition: 1.0s;
+  }
+  .workation__hoverbox:hover::before{
+    left: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .workation{
+    padding: 40px 0;
+    text-align: center;
+  }
+  .workation .l-wrapper{
+    display: block;
+  }
+  .workation .l-wrapper > img{
+    margin-bottom: 20px;
+  }
+  .workation .workation__text{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+}
+
+/* ここまで */
+
+/* /workation-portal/css/style.css より流用 */
+
+.pr{
+  padding: 60px 0;
+  background: $gray-color;
+  text-align: center;
+}
+
+.pr .l-wrapper {
+  line-height: 1.8;
+}
+
+.pr .home__h1{
+  padding: 0;
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  position: relative;
+  line-height: 1.5;
+}
+.pr .home__h1::before{
+	content: '';
+	position: absolute;
+	bottom: calc(50% - 2px);
+	left: calc(50% - 180px);
+	transform: translate(-50%, -50%);
+	width: 51px;
+	height: 4px;
+	background: linear-gradient(to right, $base-color 0, #0196AF 25%, #03A9B0 63%, #07C8B1 100%);  
+}
+.pr .home__h1::after{
+  content: '';
+	bottom: calc(50% - 2px);
+	left: calc(50% + 180px);
+	transform: translate(-50%, -50%);
+  position: absolute;
+  width: 51px;
+  height: 4px;
+  background: linear-gradient(to right, $base-color 0, #0196AF 25%, #03A9B0 63%, #07C8B1 100%);
+}
+.pr .home__h2{
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+.pr .home__h2 span{
+  background:linear-gradient(transparent 50%, #ff5 50%);
+}
+.pr a{
+  color: $base-color;
+  text-decoration: underline;
+}
+
+.pr .section__text {
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .pr .home__h1::before{
+    left: calc(50% - 150px);
+  }
+  .pr .home__h1::after{
+    left: calc(50% + 150px);
+  }
+}
+
+.button{
+  position: relative;
+  max-width: 100%;
+  &::after {
+    content: url(/co-mit_renew_201910/img/circulareconomy/icon_button_arrow.png);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+  }
+}
+
+.pr .button {
+  padding: 17px 0;
+  background: linear-gradient(to right, $base-color 0, #0196AF 25%, #03A9B0 63%, #07C8B1 100%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  width: 379px;
+  height: 52px;
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,0.3);
+  display: block;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.20);
+}
+
+@media screen and (max-width: 768px) {
+  .pr .section__text {
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+}
+/* ここまで */
+
+.feature {
+  position: relative;
+  margin-bottom: 40px;
+  padding: 60px 25px 25px 25px;
+  background: #ffedd0;
+  z-index: 0;
+  &-head {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 10px;
+    width: 280px;
+    background: linear-gradient(to right, #008FAF 0, #0196AF 25%, #03A9B0 63%, #07C8B1 100%);
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    @include shadow;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 20px;
+      right: 25px;
+      width: 100px;
+      background: #646464;
+      box-shadow: 10px 10px 10px 10px #646464;
+      transform: rotate(4deg);
+      z-index: -1;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      border: none;
+      border-bottom: solid 10px transparent;
+      border-right: solid 10px #006c6b;
+    }
+  }
+  &-title {
+    font-weight: bold;
+    & ~ .feature-title {
+      margin-top: 35px;
+    }
+  }
+}
+
+/* コラム詳細 文字・画像セット */
+.flex-set {
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+  margin-bottom: 30px;
+  img {
+    width: calc(100% / 2 - 35px / 2);
+    margin-left: 0;
+    object-fit: contain;
+  }
+  .text {
+    width: calc(50% - 35px / 2);
+  }
+}
+
+/* パンくずリスト 黒バージョン */
+.breadcrumb.ver-black {
+  background: $black-color;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .feature {
+    &-head {
+      width: 230px;
+    }
+  }
+
+
+  .flex-set {
+    flex-direction: column;
+    gap: 10px;
+    img,.text {
+      width: 100%;
+    }
+  }
+}
+
+/* ~とはのページ */
+.center {
+  text-align: center;
+}
+
+.under-gradation {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 30px;
+  text-align: center;
+  line-height: 1.25;
+  font-size: font(20, 24);
+  font-weight: bold;
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #008FAF 0%, #0196AF 25%, #03A9B0 63%, #07C8B1 100%);
+  }
+  span {
+    font-weight: normal;
+    font-size: .75em;
+  }
+}
+
+.side-line {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  &::before,
+  &::after {
+    content: "";
+    border-top: 2px solid #000;
+    width: 15px; 
+  }
+}
+
+.mutual {
+  margin-top: 25px;
+  &-section {
+    padding: 55px 0;
+    &:nth-of-type(even) {
+      background: $gray-color;
+    }
+    &:last-child {
+      padding-bottom: 80px;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+  }
+
+  figure {
+    margin-top: 60px;
+    img {
+      margin-bottom: 35px;
+    }
+    figcaption {
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+  strong {
+    font-weight: bold;
+  }
+}
+
+.link {
+  color: #0090af;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.mt75 {
+  margin-top: 75px;
+}
+
+@media screen and (max-width: 768px) {
+  .under-gradation {
+    padding-bottom: 15px;
+  }
+  .mutual {
+    &-section {
+      padding: 35px 0;
+      &:last-child {
+        padding-bottom: 40px;
+      }
+    }
+
+    figure {
+      figcaption {
+        text-align: left;
+      }
+    }
+    strong {
+      font-weight: bold;
+    }
+  }
+  
+}
+
+.circular-banner {
+  padding: 20px 0;
+  margin-bottom: 100px;
+  background: url("/co-mit_renew_201910/img/circulareconomy/circular_bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  .l-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  &__logo {
+    margin: 15px 0;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: font(24,30);
+    span {
+      @include mincho;
+    }
+  }
+  &__recommend {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    .box {
+      padding: 5px 10px;
+      background: #fff;
+      color: $base-color;
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .circular-banner {
+    background-position: left;
+    line-height: 1.5;
+  
+    .l-wrapper {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__logo {
+      flex-direction: column;
+    }
+    &__recommend {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .box {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+.blue-text {
+  color: $base-color;
+  font-size: 20px;
+  font-weight: bold;
+}
