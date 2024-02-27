@@ -478,12 +478,12 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 				<a href="<?php echo esc_url(home_url('/')); ?>purpose/concent/">
 					<div class="purpose-2__image">
 						<picture>
-							<img src="/co-mit_renew_201910/img/ph_purpose01.jpg" alt="集中できる環境で研修したい" width="180px" height="180px">
+							<img src="/co-mit_renew_201910/img/ph_purpose01.jpg" alt="集中できる環境で効果的かつ効率的に学びたい" width="180px" height="180px">
 						</picture>
 					</div>
 					<div class="purpose-2__main">
-						<p class="purpose-2__heading">集中できる環境で研修したい</p>
-						<p class="purpose-2__text">新入社員研修・資格取得トレーニング・技術講座　など</p>
+						<p class="purpose-2__heading">集中できる環境で<br class="pc-only">効果的かつ効率的に学びたい</p>
+						<p class="purpose-2__text">新入社員研修／内定者研修／リーダー研修／リスキリング　など</p>
 					</div>
 				</a>
 			</li>
@@ -491,12 +491,12 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 				<a href="<?php echo esc_url(home_url('/')); ?>purpose/motivate/">
 					<div class="purpose-2__image">
 						<picture>
-							<img src="/co-mit_renew_201910/img/ph_purpose02.jpg" alt="モチベーションが上がる環境で研修したい" width="180px" height="180px">
+							<img src="/co-mit_renew_201910/img/ph_purpose02.jpg" alt="モチベーションが上がる環境で能力開発や自己成長に繋げたい" width="180px" height="180px">
 						</picture>
 					</div>
 					<div class="purpose-2__main">
-						<p class="purpose-2__heading">モチベーションが上がる環境で研修したい</p>
-						<p class="purpose-2__text">マネジメント研修・コーチング研修・役員研修　など</p>
+						<p class="purpose-2__heading">モチベーションが上がる環境で<br class="pc-only">能力開発や自己成長に繋げたい</p>
+						<p class="purpose-2__text">マネジメント研修／コーチング／役員研修／幹部研修／意識改革／キャリア開発／アンガーマネジメント研修　など</p>
 					</div>
 				</a>
 			</li>
@@ -504,12 +504,12 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 				<a href="<?php echo esc_url(home_url('/')); ?>purpose/environment/">
 					<div class="purpose-2__image">
 						<picture>
-							<img src="/co-mit_renew_201910/img/ph_purpose03.jpg" alt="いつもと違った環境で研修したい" width="180px" height="180px">
+							<img src="/co-mit_renew_201910/img/ph_purpose03.jpg" alt="いつもと違った環境でビジネスの成功に貢献したい" width="180px" height="180px">
 						</picture>
 					</div>
 					<div class="purpose-2__main">
-						<p class="purpose-2__heading">いつもと違った環境で研修したい</p>
-						<p class="purpose-2__text">プロジェクトミーティング・ビジョンメイキング合宿・開発合宿　など</p>
+						<p class="purpose-2__heading">いつもと違った環境で<br class="pc-only">ビジネスの成功に貢献したい</p>
+						<p class="purpose-2__text">キックオフミーティング／ビジョンメイキング／開発合宿　など</p>
 					</div>
 				</a>
 			</li>
@@ -517,12 +517,12 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 				<a href="<?php echo esc_url(home_url('/')); ?>purpose/incentive/">
 					<div class="purpose-2__image">
 						<picture>
-							<img src="/co-mit_renew_201910/img/ph_purpose04_sp.jpg" alt="インセンティブ旅行を兼ねて研修したい" width="180px" height="180px">
+							<img src="/co-mit_renew_201910/img/ph_purpose04_sp.jpg" alt="会社や組織、チームで相互理解する時間を作りたい" width="180px" height="180px">
 						</picture>
 					</div>
 					<div class="purpose-2__main">
-						<p class="purpose-2__heading">インセンティブ旅行を兼ねて研修したい</p>
-						<p class="purpose-2__text">オフサイトミーティング・チームビルディング・ワーケーション　など</p>
+						<p class="purpose-2__heading">会社や組織、チームで<br class="pc-only">相互理解する時間を作りたい</p>
+						<p class="purpose-2__text">オフサイトミーティング／チームビルディング／ワーケーション／越境学習／インセンティブ旅行（報奨旅行）　など</p>
 					</div>
 				</a>
 			</li>

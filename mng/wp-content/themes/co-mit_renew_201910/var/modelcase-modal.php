@@ -1,6 +1,6 @@
 
 <div id="modelcase-modal">
-  <h3 class="modelcase-modal-heading">■料金目安プランのモデルケース<span>※点線内の総額（税込み）の1人あたりの金額を料金目安として掲載しています。</span></h3>
+  <h3 class="modelcase-modal-heading">■料金目安プランのモデルケース</h3>
   <div class="modelcase-modal-wrapper">
     <div class="modelcase-modal-box">
       <div class="modelcase-modal-subtitle">支店長研修</div>
@@ -50,6 +50,10 @@
           </dl>
         </div>
       </div>
+      <p class="note">※点線内の総額（税込み）の1人あたりの金額を料金目安として掲載しています。</p>
+      <p class="note">※報道などでもご存じのとおり、コロナ後の観光需要の高まりと、人員不足、物価高の影響により、研修施設の料金が高騰しています。<br>
+      こちらに記載の料金プランとは価格が大きく異なる場合がございますので、あらかじめご了承ください。<br>
+      お問い合わせ時に施設に概算料金の確認をすることをおすすめします。</p>
     </div>
 
   </div>

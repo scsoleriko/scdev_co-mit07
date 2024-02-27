@@ -35,6 +35,11 @@ console.log("<?php echo 'このページで使用しているテンプレート�
 
 <?php endif; ?>
 
+<?php if (is_page('personal_data')): ?>
+<link rel="stylesheet" href="/co-mit_renew_201910/css/personal_data.css">
+<?php endif; ?>
+
+
 
 <?php
 // 一覧ページ

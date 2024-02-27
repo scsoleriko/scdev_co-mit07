@@ -115,7 +115,25 @@ $all_num = $get_num;//全件数
 
 <div class="l-wrapper">
   <div class="search-number">
-    <h1 class="heading-4"><?php if (is_tax('purpose') || is_tax('area') || is_tax('feature')): ?><?php echo $term_name = single_term_title( '', false ); ?>で<?php endif; ?>おすすめの研修施設一覧</h1><div class="heading-4">:<?php echo $all_num; ?>件</div>
+		<?php if ( is_tax('purpose') ): ?>
+			<h1 class="heading-4">
+				<small>
+				<?php if ( $term == 'concent' ): 
+						echo '新入社員研修／内定者研修／リーダー研修／リスキリング　など';
+					elseif ( $term == 'motivate' ): 
+						echo 'マネジメント研修／役員研修／幹部研修／キャリア開発　など';
+					elseif ( $term == 'environment' ): 
+						echo 'キックオフミーティング／ビジョンメイキング／開発合宿　など';
+					elseif ( $term == 'incentive' ): 
+						echo 'オフサイトミーティング／チームビルディング／インセンティブ旅行（報奨旅行）　など';
+					endif; ?>
+				</small><br>
+				<?php echo $term_name = single_term_title( '', false ); ?>　におすすめな施設一覧
+			</h1>
+			<div class="heading-4">:<?php echo $all_num; ?>件</div>
+		<?php else: ?>
+ 	  	<h1 class="heading-4"><?php if ( is_tax('area') || is_tax('feature')): ?><?php echo $term_name = single_term_title( '', false ); ?>で<?php endif; ?>おすすめの研修施設一覧</h1><div class="heading-4">:<?php echo $all_num; ?>件</div>
+		<?php endif; ?>
   </div>
 </div>
 

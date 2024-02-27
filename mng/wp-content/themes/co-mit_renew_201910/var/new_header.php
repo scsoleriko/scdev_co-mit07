@@ -122,6 +122,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body id="new-faq">
 <?php elseif (is_page('beginner')): ?>
 <body id="beginner">
+<?php elseif (is_page('personal_data')): ?>
+<body id="personal-data">
 <?php else: ?>
 <body>
 <?php endif; ?>
@@ -170,6 +172,7 @@ endif; ?>">
 							<li class="navi__sub__item"><a href="<?php echo esc_url(home_url('/')); ?>agreement/">利用規約</a></li>
 							<li class="navi__sub__item"><a href="<?php echo esc_url(home_url('/')); ?>disclaimer/">免責事項</a></li>
 							<li class="navi__sub__item"><a href="https://asno-sys.co.jp/privacy/" target="_blank">個人情報保護方針</a></li>
+							<li class="navi__sub__item"><a href="<?php echo esc_url(home_url('/')); ?>personal_data/">パーソナルデータの外部送信について</a></li>
 							<li class="navi__sub__item"><a href="https://asno-sys.co.jp/" target="_blank">運営会社</a></li>
 						</ul>
 						<ul class="navi__sns">
@@ -264,6 +267,7 @@ endif; ?>">
 							<li class="navi__sub__item"><a href="<?php echo esc_url(home_url('/')); ?>agreement/">利用規約</a></li>
 							<li class="navi__sub__item"><a href="<?php echo esc_url(home_url('/')); ?>disclaimer/">免責事項</a></li>
 							<li class="navi__sub__item"><a href="https://asno-sys.co.jp/privacy/" target="_blank">個人情報保護方針</a></li>
+							<li class="navi__sub__item"><a href="<?php echo esc_url(home_url('/')); ?>personal_data/">パーソナルデータの外部送信について</a></li>
 							<li class="navi__sub__item"><a href="https://asno-sys.co.jp/" target="_blank">運営会社</a></li>
 						</ul>
 						<ul class="navi__sns">

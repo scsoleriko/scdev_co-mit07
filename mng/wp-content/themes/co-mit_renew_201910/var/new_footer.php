@@ -172,20 +172,20 @@
 						<p class="heading-3 heading-3--purpose">目的から探す</p>
 						<ul class="purpose-1">
 							<li class="purpose-1__item">
-								<a href="/purpose/concent/">集中できる環境で研修したい</a>
-								<span>新入社員研修・資格取得トレーニング・技術講座</span>
+								<a href="/purpose/concent/">集中できる環境で効果的かつ効率的に学びたい</a>
+								<span>新入社員研修／内定者研修／リーダー研修／リスキリング　など</span>
 							</li>
 							<li class="purpose-1__item">
-								<a href="/purpose/motivate/">モチベーションが上がる環境で研修したい</a>
-								<span>マネジメント研修・コーチング研修・役員研修</span>
+								<a href="/purpose/motivate/">モチベーションが上がる環境で能力開発や自己成長に繋げたい</a>
+								<span>マネジメント研修／コーチング／役員研修／幹部研修／意識改革／キャリア開発／アンガーマネジメント研修　など</span>
 							</li>
 							<li class="purpose-1__item">
-								<a href="/purpose/environment/">いつもと違った環境で研修したい</a>
-								<span>プロジェクトミーティング・ビジョンメイキング合宿・開発合宿</span>
+								<a href="/purpose/environment/">いつもと違った環境でビジネスの成功に貢献したい</a>
+								<span>キックオフミーティング／ビジョンメイキング／開発合宿　など</span>
 							</li>
 							<li class="purpose-1__item">
-								<a href="/purpose/incentive/">インセンティブ旅行を兼ねて研修したい</a>
-								<span>オフサイトミーティング・チームビルディング・ワーケーション　など</span>
+								<a href="/purpose/incentive/">会社や組織、チームで相互理解する時間を作りたい</a>
+								<span>オフサイトミーティング／チームビルディング／ワーケーション／越境学習／インセンティブ旅行（報奨旅行）　など</span>
 							</li>
 						</ul>
 					</div>
@@ -220,6 +220,7 @@
 				<li class="footer-navi__item"><a href="<?php echo esc_url(home_url('/')); ?>agreement/">利用規約</a></li>
 				<li class="footer-navi__item"><a href="<?php echo esc_url(home_url('/')); ?>disclaimer/">免責事項</a></li>
 				<li class="footer-navi__item"><a href="https://asno-sys.co.jp/privacy/" target="_blank">個人情報保護方針</a></li>
+				<li class="footer-navi__item"><a href="<?php echo esc_url(home_url('/')); ?>personal_data/">パーソナルデータの外部送信について</a></li>
 				<li class="footer-navi__item"><a href="https://asno-sys.co.jp/" target="_blank">運営会社</a></li>
 			</ul>
 			<div class="l-wrapper">

@@ -563,6 +563,10 @@ img {
   padding-top: 20px;
   margin-bottom: 20px
 }
+.heading-4 small{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
 .heading-5 {
   font-size: 1.8rem;
   margin-bottom: 15px;
@@ -2730,6 +2734,10 @@ body.compensate-for-scrollbar {
     margin-bottom: 30px;
     font-size: 2.6rem
   }
+  .heading-4 small{
+    font-size: 1.4rem;
+    font-weight: normal;
+  }
   .heading-5 {
     font-size: 2.4rem;
     font-weight: 700;
@@ -3318,7 +3326,7 @@ body.compensate-for-scrollbar {
     height: calc(100% - 92px);
     background: #FFF;
     z-index: 1200;
-    padding: 15px 0 50px;
+    padding: 15px 0 120px;
     overflow: scroll
   }
   .navi {
@@ -3695,7 +3703,7 @@ body.compensate-for-scrollbar {
   padding-left: 20px
 }
 #modelcase-modal dl dd, #modelcase-modal dl dt {
-  margin-bottom: 17px;
+  margin-bottom: 15px;
   line-height: 1.5
 }
 #modelcase-modal .modelcase-modal-subtitle {
@@ -3713,6 +3721,10 @@ body.compensate-for-scrollbar {
   transform: scale(3);
   top: 10px;
   right: 10px
+}
+#modelcase-modal p.note{
+  font-size: 75%;
+  margin-bottom: 7px;
 }
 @media screen and (min-width:940px) {
   #modelcase-modal {
@@ -3744,6 +3756,7 @@ body.compensate-for-scrollbar {
   display: flex;
   flex-wrap: wrap;
   -ms-flex-wrap: wrap;
+  align-items: flex-end;
 }
 @media screen and (max-width: 768px){
   .search-number {

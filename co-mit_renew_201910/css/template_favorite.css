@@ -179,7 +179,7 @@ img {
   position: relative;
   display: none
 }
-.navi__favorite__btn-2 a, .navi__favorite__detail:hover, .sp-favorite__btn i, .sp-favorite__btn span, .sp-menu-btn, .sp-menu-btn span {
+.navi__favorite__btn-2 a, .navi__favorite__detail:hover, .sp-favorite__btn i, .sp-favorite__btn span, .sp-menu-btn, .sp-menu-btn span, navi__favorite__detail:hover::before {
   display: block
 }
 .navi__favorite__detail::before {
@@ -188,6 +188,14 @@ img {
   right: 0;
   padding-left: 180px;
   padding-top: 15px
+}
+.navi__favorite__detail::after{
+  content: '';
+  width: 400px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  z-index: 5;
 }
 .navi__favorite__detail__inner {
   position: absolute;
