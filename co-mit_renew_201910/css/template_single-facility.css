@@ -3535,7 +3535,7 @@ body.compensate-for-scrollbar {
   padding-left: 20px
 }
 #modelcase-modal dl dd, #modelcase-modal dl dt {
-  margin-bottom: 17px;
+  margin-bottom: 15px;
   line-height: 1.5
 }
 #modelcase-modal .modelcase-modal-subtitle {
@@ -3553,6 +3553,10 @@ body.compensate-for-scrollbar {
   transform: scale(3);
   top: 10px;
   right: 10px
+}
+#modelcase-modal p.note{
+  font-size: 75%;
+  margin-bottom: 7px;
 }
 @media screen and (min-width:940px) {
   #modelcase-modal {

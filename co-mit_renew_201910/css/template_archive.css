@@ -2941,7 +2941,7 @@ body.compensate-for-scrollbar {
   }
   .facility-list-1__name {
     font-size: 2.4rem;
-    padding-right: 0;
+    padding-right: 70px;
     margin-bottom: 22px
   }
   .facility-list-1__text {

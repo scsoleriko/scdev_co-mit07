@@ -13,10 +13,10 @@
   <div class="common-content">
     <div class="inner">
       <div class="scroll-no">
-      <iframe src="https://scan.privtech.co.jp/policy?tagId=0&id=444&token=08cda9bdead5ab5b0f34f2dbf2bee48f4bbc70de" id="iframe-content" scrolling="no"></iframe> 
+      <iframe src="https://scan.privtech.co.jp/cdn/policy/08cda9bdead5ab5b0f34f2dbf2bee48f4bbc70de-444.html" id="iframe-content" scrolling="no"></iframe> 
         </div>
       <div class="scroll-on">
-        <iframe src="https://scan.privtech.co.jp/policy?tagId=0&id=444&token=08cda9bdead5ab5b0f34f2dbf2bee48f4bbc70de" id="iframe-content" scrolling="yes"></iframe> 
+        <iframe src="https://scan.privtech.co.jp/cdn/policy/08cda9bdead5ab5b0f34f2dbf2bee48f4bbc70de-444.html" id="iframe-content" scrolling="yes"></iframe> 
       </div>
     </div>
   </div>
