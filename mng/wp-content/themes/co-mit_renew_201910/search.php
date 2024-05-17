@@ -55,7 +55,15 @@
 			'operator'=>'AND',
 		);
 	}
-
+	
+	if( !empty($cat_hotel) ) {
+		$cat_hotel_selected = array(
+			'taxonomy'=>'hotel_type',
+			'terms'=>$cat_hotel,
+			'field'=>'slug',
+			'operator'=>'IN'
+		);
+	}
 	$meta = array(
 		"relation" => "AND",
 	);
@@ -134,7 +142,7 @@
 		}
 		$meta[] = $range;
 	}
-	
+	/*
 	if( !empty($cat_hotel)){
 		$range = array(
 			"relation" => "OR",
@@ -149,6 +157,7 @@
 		endforeach;
 		$meta[] = $range;
 	}
+	*/
 	?>
 
 <?php
@@ -257,12 +266,13 @@ $all_num = $get_num;//全件数
 //    'meta_query' => $meta
   );
   //タクソノミー絞り込みの場合はクエリを指定
-	if( !empty($cat_area) || !empty($post_tag) ) {
+	if( !empty($cat_area) || !empty($post_tag) || !empty($cat_hotel) ) {
      $args_search = array(
        'tax_query' => array(
          'relation' => 'AND',
          array($cat_area_selected),
-         array($post_tag_selected)
+         array($post_tag_selected),
+         array($cat_hotel_selected)
       )
     );
     
@@ -371,7 +381,7 @@ $all_num = $get_num;//全件数
 					$result_cond[] = "アウトドア施設";
 				}else if($val == "public"){
 					$result_cond[] = "公共施設";
-				}else if($val == "etc"){
+				}else if($val == "others"){
 					$result_cond[] = "宿泊タイプその他";
 				}
 			}

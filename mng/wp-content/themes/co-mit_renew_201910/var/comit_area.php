@@ -135,7 +135,7 @@
 								<li><label class="check-type-1"><input type="checkbox" data-region="hotel_type" name="cat_hotel[]" value="training_center" id="search-label-training_center"><span>研修センター</span></label></li>
 								<li><label class="check-type-1"><input type="checkbox" data-region="hotel_type" name="cat_hotel[]" value="outdoor_facilities" id="search-label-outdoor"><span>アウトドア施設</span></label></li>
 								<li><label class="check-type-1"><input type="checkbox" data-region="hotel_type" name="cat_hotel[]" value="public" id="search-label-public"><span>公共施設</span></label></li>
-								<li><label class="check-type-1"><input type="checkbox" data-region="hotel_type" name="cat_hotel[]" value="etc" id="search-label-etc"><span>その他</span></label></li>
+								<li><label class="check-type-1"><input type="checkbox" data-region="hotel_type" name="cat_hotel[]" value="others" id="search-label-etc"><span>その他</span></label></li>
 								</ul>
 				</div>
 			</div>

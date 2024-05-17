@@ -259,7 +259,20 @@ register_taxonomy(
 		'show_ui' => true
 	)
 );
-
+/* タグの設定 */
+register_taxonomy(
+	'hotel_type', //タグ名（任意）
+	'facility', //カスタム投稿名
+	array(
+		'hierarchical' => true, //タグタイプの指定（階層をもたない）
+		'update_count_callback' => '_update_post_term_count',
+		//ダッシュボードに表示させる名前
+		'label' => '宿タイプ管理',
+		'singular_label' => '宿タイプ管理',
+		'public' => true,
+		'show_ui' => true
+	)
+);
 
 register_taxonomy(
 	'category_column', //カテゴリーの名前

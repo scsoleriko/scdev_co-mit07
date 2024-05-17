@@ -80,7 +80,8 @@ EOT;
 			</div>
 			<a href="<?php the_permalink(); ?>" target="_blank">
 				<div class="facility-list-1__info">
-					<span class="facility-list-1__icon"><?php the_field('facility_icon'); ?></span>
+					<?php $terms = get_the_terms($post->ID,'hotel_type'); ?>
+					<span class="facility-list-1__icon"><?php echo $terms[0]->name; ?></span>
 				</div>
 				<h2 class="facility-list-1__name"><?php echo get_the_title(); ?></h2>
 				<p class="facility-list-1__text"><?php echo nl2br(get_field('facility_pr_short')); ?></p>

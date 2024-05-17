@@ -288,7 +288,8 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 								</div>
 								<div class="facility-list-2__main">
 									<div class="facility-list-2__info">
-										<span class="facility-list-2__area"><?php the_field('facility_icon'); ?></span>
+										<?php $terms = get_the_terms($post->ID,'hotel_type'); ?>
+										<span class="facility-list-2__area"><?php echo $terms[0]->name; ?></span>
 									</div>
 									<h3 class="facility-list-2__name"><?php the_title() ?></h3>
 									<p class="facility-list-2__text"><?php echo nl2br(get_field('facility_pr_short')); ?></p>
@@ -367,7 +368,8 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 								</div>
 								<div class="facility-list-2__main">
 								<div class="facility-list-2__info">
-									<span class="facility-list-2__area"><?php the_field('facility_icon'); ?></span>
+									<?php $terms = get_the_terms($post->ID,'hotel_type'); ?>
+									<span class="facility-list-2__area"><?php echo $terms[0]->name; ?></span>
 								</div>
 								<h3 class="facility-list-2__name"><?php the_title() ?></h3>
 								<p class="facility-list-2__text"><?php echo nl2br(get_field('facility_pr_short')); ?></p>
@@ -446,7 +448,8 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 								</div>
 								<div class="facility-list-2__main">
 									<div class="facility-list-2__info">
-										<span class="facility-list-2__area"><?php the_field('facility_icon'); ?></span>
+										<?php $terms = get_the_terms($post->ID,'hotel_type'); ?>
+										<span class="facility-list-2__area"><?php echo $terms[0]->name; ?></span>
 									</div>
 									<h3 class="facility-list-2__name"><?php the_title() ?></h3>
 									<p class="facility-list-2__text"><?php echo nl2br(get_field('facility_pr_short')); ?></p>
@@ -540,42 +543,42 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 
 		<ul class="search-type-list swiper-wrapper">
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=resort_hotel" target="_blank"> <img src="/co-mit_renew_201910/img/search_resort_hotel.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/resort_hotel/"> <img src="/co-mit_renew_201910/img/search_resort_hotel.jpg" alt="">
         	<p class="post__title">リゾートホテル</p>
         </a>
 			</li>
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=city_hotel" target="_blank"> <img src="/co-mit_renew_201910/img/search_city_hotel.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/city_hotel/"> <img src="/co-mit_renew_201910/img/search_city_hotel.jpg" alt="">
         	<p class="post__title">シティホテル</p>
         </a>
 			</li>
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=business_hotel" target="_blank"> <img src="/co-mit_renew_201910/img/search_business_hotel.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/business_hotel/"> <img src="/co-mit_renew_201910/img/search_business_hotel.jpg" alt="">
         	<p class="post__title">ビジネス型ホテル</p>
         </a>
 			</li>
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=ryokan" target="_blank"> <img src="/co-mit_renew_201910/img/search_ryokan.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/ryokan/"> <img src="/co-mit_renew_201910/img/search_ryokan.jpg" alt="">
         	<p class="post__title">旅館</p>
         </a>
 			</li>
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=training_center" target="_blank"> <img src="/co-mit_renew_201910/img/search_training_center.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/training_center/"> <img src="/co-mit_renew_201910/img/search_training_center.jpg" alt="">
         	<p class="post__title">研修センター</p>
         </a>
 			</li>
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=outdoor_facilities" target="_blank"> <img src="/co-mit_renew_201910/img/search_outdoor.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/outdoor_facilities/"> <img src="/co-mit_renew_201910/img/search_outdoor.jpg" alt="">
         	<p class="post__title">アウトドア施設</p>
         </a>
 			</li>
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=public" target="_blank"> <img src="/co-mit_renew_201910/img/search_public.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/public/"> <img src="/co-mit_renew_201910/img/search_public.jpg" alt="">
         	<p class="post__title">公共施設</p>
         </a>
 			</li>
 			<li class="swiper-slide"> 
-				<a href="/?post_type=facility&s=&facility_capa=&facility_fee=&cat_hotel%5B%5D=etc" target="_blank"> <img src="/co-mit_renew_201910/img/search_etc.jpg" alt="">
+				<a href="<?php echo esc_url(home_url('/')); ?>hotel_type/others/"> <img src="/co-mit_renew_201910/img/search_etc.jpg" alt="">
         	<p class="post__title">その他</p>
         </a>
 			</li>

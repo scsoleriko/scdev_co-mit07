@@ -132,7 +132,7 @@ $all_num = $get_num;//全件数
 			</h1>
 			<div class="heading-4">:<?php echo $all_num; ?>件</div>
 		<?php else: ?>
- 	  	<h1 class="heading-4"><?php if ( is_tax('area') || is_tax('feature')): ?><?php echo $term_name = single_term_title( '', false ); ?>で<?php endif; ?>おすすめの研修施設一覧</h1><div class="heading-4">:<?php echo $all_num; ?>件</div>
+ 	  	<h1 class="heading-4"><?php if ( is_tax('area') || is_tax('feature') || is_tax('hotel_type')): ?><?php echo $term_name = single_term_title( '', false ); ?>で<?php endif; ?>おすすめの研修施設一覧</h1><div class="heading-4">:<?php echo $all_num; ?>件</div>
 		<?php endif; ?>
   </div>
 </div>

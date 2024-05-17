@@ -161,9 +161,9 @@ function pc_fv () {
             }
           ?>
 
-        <?php if ( isset($comit_parent_id) ){ $facility_icon = get_field('facility_icon',$comit_parent_id); } 
-          else { $facility_icon = get_field('facility_icon'); } ?>
-        <div class="heading-8"><?php if ( $days > $keika ): ?><span class="icon__new">NEW</span><?php endif; ?><span><?php echo $facility_icon; ?></span><h1><?php if ( isset($comit_parent_id) ){ echo get_post($comit_parent_id)->post_title; } else { echo get_the_title(); } ?></h1></div>
+        <?php $terms = get_the_terms($comit_parent_id,'hotel_type'); ?>
+        <?php $hotel_type = $terms[0]->name; ?>
+        <div class="heading-8"><?php if ( $days > $keika ): ?><span class="icon__new">NEW</span><?php endif; ?><span><?php echo $hotel_type; ?></span><h1><?php if ( isset($comit_parent_id) ){ echo get_post($comit_parent_id)->post_title; } else { echo get_the_title(); } ?></h1></div>
         <div class="favorite-button js-favorite" data-facility-id="<?php echo $favorite_id ?>"><p><span>検討リスト追加</span><span>検討リスト追加済</span></p></div>
       </div>
       <div class="facility-overview<?php echo $description_single_class; ?>" >
@@ -1578,9 +1578,9 @@ function sp_fv () {
   <div class="l-wrapper">
     <section class="detail-name-area">
       <div class="detail-name-area__inner">
-        <?php if ( isset($comit_parent_id) ){ $facility_icon = get_field('facility_icon',$comit_parent_id); } 
-          else { $facility_icon = get_field('facility_icon'); } ?>
-        <div class="heading-8"><?php if ( $days > $keika ): ?><span class="icon__new">NEW</span><?php endif; ?><span><?php if ( isset($comit_parent_id) ){ the_field('facility_icon',$comit_parent_id); } else { the_field('facility_icon'); } ?></span><br><h1><?php if ( isset($comit_parent_id) ){ echo get_post($comit_parent_id)->post_title; } else { echo get_the_title(); } ?></h1></div>
+        <?php $terms = get_the_terms($comit_parent_id,'hotel_type'); ?>
+        <?php $hotel_type = $terms[0]->name; ?>
+        <div class="heading-8"><?php if ( $days > $keika ): ?><span class="icon__new">NEW</span><?php endif; ?><span><?php echo $hotel_type; ?></span><br><h1><?php if ( isset($comit_parent_id) ){ echo get_post($comit_parent_id)->post_title; } else { echo get_the_title(); } ?></h1></div>
         <div class="favorite-button js-favorite" data-facility-id="<?php echo $favorite_id ?>"><p><span>検討リスト追加</span><span>検討リスト追加済</span></p></div>
       </div>
 
