@@ -298,6 +298,7 @@
 						<li><a href="/facility/">施設を探す</a></li>
 						<li><a href="/consult/">専門家に相談する</a></li>
 						<li><a href="/#hotel-type">宿タイプから探す</a></li>							
+						<li><a href="/gallery/">ギャラリーから探す</a></li>							
 					</ul>
 				</div>
 				<div class="pc-5col">
@@ -340,6 +341,8 @@
 			<ul class="footer-menu">
 				<li><a href="/beginner/">初めての方はこちら</a></li>
 				<li><a href="/facility/">施設を探す</a></li>
+				<li><a href="/#hotel-type">宿タイプから探す</a></li>
+				<li><a href="/gallery/">ギャラリーから探す</a></li>
 				<li><a href="/workation-portal/">ワーケーションポータル</a></li>
 				<li><a href="/offsite/">オフサイト研修のススメ</a></li>							
 				<li><a href="/circulareconomy/">サーキュラーエコノミーを知る</a></li>							
@@ -728,6 +731,9 @@ $(function() {
 	});
 });
 </script>
+<?php endif; ?>
+<?php if (is_page('gallery')): ?>
+<script src="/co-mit_renew_201910/js/jquery.fancybox.min.js"></script>
 <?php endif; ?>
 <?php
 // 一覧ページ

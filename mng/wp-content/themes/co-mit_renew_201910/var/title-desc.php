@@ -116,7 +116,7 @@
         $result_cond[] = "アウトドア施設";
       }else if($val == "public"){
         $result_cond[] = "公共施設";
-      }else if($val == "etc"){
+      }else if($val == "others"){
         $result_cond[] = "宿泊タイプその他";
       }
     }
@@ -158,6 +158,10 @@
 <title>オフサイトミーティングなど会社や組織で相互理解する環境におすすめな研修施設一覧｜CO-MIT(コミット)企業研修・宿泊研修施設</title>
 <meta name="description" content="オフサイトミーティング、インセンティブ旅行（報奨旅行）など会社や組織、チームで相互理解する時間を作りたい方に最適な施設はこちら！研修・合宿施設検索サイト「CO-MIT（コミット）」では、企業研修やオフサイトミーティングなどに最適な研修施設やホテルをご紹介。">
 <?php endif; ?>
+<?php // ------------------------------ 施設を探す > 目的一覧 --------------------------------------- ?>
+<?php elseif ( is_tax('hotel_type') ): ?>
+  <title><?php echo $term_name = single_term_title( '', false ); ?>でおすすめの研修施設一覧｜CO-MIT(コミット)研修施設検索サイト</title>
+<meta name="description" content="<?php echo $term_name = single_term_title( '', false ); ?>で新入社員研修やオフサイトミーティング・チームビルディングができる研修施設、ホテル、旅館、公共施設をご紹介。リゾートから都市型まで研修・合宿施設探すならCO-MIT（コミット）で！">
 
 <?php // ------------------------------ 施設を探す > タグ一覧 --------------------------------------- ?>
 <?php elseif ( is_tax('feature') ): ?>
@@ -260,4 +264,9 @@ if( get_field('facility_pr_deital') ){
   <title>CO-MIT流サーキュラーエコノミーを知る｜<?php echo $site_title; ?></title>
   <meta name="description" content="サーキュラシティ事例から、環境保全活動としてだけではなくこれからの経営戦略・事業戦略としての位置づけを学びを得るためのコンテンツ「CO-MIT流サーキュラーエコノミーを知る」です。">
   <?php endif; ?>
+<?php // ------------------------------ ギャラリーから探す --------------------------------------- ?>
+<?php elseif ( is_page('gallery')): ?>
+  <title>ギャラリーから探す｜CO-MIT(コミット)企業研修・宿泊研修施設</title>
+  <meta name="description" content="企業研修や新入社員研修、開発合宿、オフサイトミーティングに最適な研修施設やホテルを探すならコミット。地域や人数、目的別に探せる便利な検索機能でご希望の条件に合わせた施設・研修会場が見つかります。">
+
 <?php endif; ?>

@@ -531,7 +531,8 @@ $thumb_size = $is_mobile_device ? "medium" : "large";
 			</li>
 		</ul>
 	</div>
-	<div class="home-content" id="hotel-type">	
+	<a id="hotel-type" name="hotel-type"></a>
+	<div class="home-content">	
 		<div class="heading-6">
 		<span class="heading-6__sub">SEARCH</span>
 			<h2 class="heading-6__main">宿タイプから探す</h2>

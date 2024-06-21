@@ -12,7 +12,7 @@ console.log("<?php echo 'このページで使用しているテンプレート�
 <link rel="stylesheet" href="/co-mit_renew_201910/css/template_frontpage.css">
 <?php endif; ?>
 
-<?php if (get_post_type() === 'column' || is_singular('facility') || is_archive('facility') || is_circulareeconomy() ) : ?>
+<?php if (get_post_type() === 'column' || is_singular('facility') || is_archive('facility') || is_circulareeconomy() || is_page('gallery') ) : ?>
 <link rel="stylesheet" href="/co-mit_renew_201910/css/template_blog-module.css">
 <?php endif; ?>
 
@@ -47,7 +47,8 @@ if (
   (is_post_type_archive('facility') ||
   is_archive('area') ||
   is_archive('feature') ||
-  is_archive('puprpose')) && !is_post_type_archive("column") && !is_post_type_archive("circulareconomy")
+  is_archive('puprpose')) && !is_post_type_archive("column") && !is_post_type_archive("circulareconomy") ||
+  is_page('gallery')
 ): ?>
 <link rel="stylesheet" href="/co-mit_renew_201910/css/template_archive.css">
 
