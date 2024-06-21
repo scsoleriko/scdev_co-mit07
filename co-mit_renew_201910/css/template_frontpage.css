@@ -3727,3 +3727,8 @@ body.compensate-for-scrollbar {
     min-height: 350px;
   }
 }
+#hotel-type{
+  display: block;
+  padding-top: 60px;
+  margin-top: -60px;
+}

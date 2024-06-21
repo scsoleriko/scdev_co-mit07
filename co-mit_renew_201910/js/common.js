@@ -1040,7 +1040,9 @@ SPの時のみ実行するものの追加スペース
 
 	/* 検討リストの追加・削除処理
 	*********************************************/
-	$('.js-favorite').on('click',function(){
+	var clickEventType = (( window.ontouchstart!==null ) ? 'click':'touchend');
+
+	$('.js-favorite').on(clickEventType,function(){
 		var element = $(this);
 		if ( element.hasClass('is-active') ) {
 			favoriteDelete(element);
@@ -1153,4 +1155,9 @@ SPの時のみ実行するものの追加スペース
 
 $().fancybox && $(function () {
   $(".js-modal-open").fancybox();
+})
+
+
+$().fancybox && $(function () {
+  $(".js-facility-modal-open").fancybox();
 })
